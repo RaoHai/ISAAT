@@ -3,13 +3,14 @@
 <head>
 <meta charset="utf-8">
 <title>ISAAT 2013</title>
-<link href="main.css" rel="stylesheet" type="text/css">
+<link href="/css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="/main.css" rel="stylesheet" type="text/css">
 </head>
 
 <body class="doc">
 <div class="main">
   <div syle="text-align:right;margin-right:20px;">
-  <a href="/"> Home </a>| Sitemap | Login | Contact <img src="images/arrow_gray.gif" width="6" height="12"></div>
+  <a href="/"> Home </a>| Sitemap | Login | Contact <img src="/images/arrow_gray.gif" width="6" height="12"></div>
   <div class="header"> </div>
   <div style="margin-left: 20px; margin-right: 20px; text-align: left;">
     <h2>16th International Symposium on Advances in Abrasive Technology </h2>
@@ -18,7 +19,7 @@
     <ul>
 	 <a href="/"><li>Home</li></a>
 	{$foreach:cols,$col}
-		 <a href="columns/{$$col->ColumnsId}"><li>{$$col->columnsName}</li><a>
+		 <a href="/columns/{$$col->ColumnsId}"><li>{$$col->columnsName}</li></a>
 	{$end}
     
     </ul>
@@ -66,5 +67,48 @@ E-Mail: isaat2011@hs-furtwangen.de</br>
     © 2012 surgesoft
      </div>
 </div>
+</div>
+<!-- Modal Dialog -->
+<div class="modal hide" id="myModal">
+<input id='floatinput' style='display:none;position:fixed;z-index:1100;'/>
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal">×</button>
+    <h3 id="modal-title"></h3>
+  </div>
+  <div class="modal-body">
+  <div class="modal-inner"></div>
+  <div class='modal-edit'>
+  <b>Content</b>
+ 
+<textarea id="cmeditor" name="text" cols="80" rows="20" style="width:750px;height:300px;"></textarea>
+</div>
+  </div>
+  <div class="modal-footer">
+  <a href="#" id="modal-submit" class="btn btn-primary" >Submit</a>
+    <a href="#" class="btn" data-dismiss="modal">Close</a>
+	
+  </div>
+</div>
+<!-- end Modal Dialog -->
+<script src="/js/jquery-1.7.1.min.js"></script><!--Script -->
+<script src="/js/application.js"></script><!--Script -->
+<script src="/js/bootstrap-modal.js"></script><!--Script -->
+ <script charset="utf-8" src="/editor/kindeditor-min.js"></script>
+		<script charset="utf-8" src="/editor/lang/zh_CN.js"></script>
+		<script>
+					var editor;
+					KindEditor.ready(function(K) {
+						editor = K.create('#cmeditor', {
+							resizeType : 1,
+							allowPreviewEmoticons : true,
+							allowImageUpload : true,
+							resizeMode : 1,
+							items : [
+								'source','fontname', 'fontsize', '|', 'forecolor', 'hilitecolor', 'bold', 'italic', 'underline',
+								'removeformat', '|', 'justifyleft', 'justifycenter', 'justifyright', 'insertorderedlist',
+								'insertunorderedlist', '|', 'emoticons', 'image', 'link']
+						});
+					});
+		</script>
 </body>
 </html>

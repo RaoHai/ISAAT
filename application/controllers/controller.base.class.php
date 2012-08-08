@@ -171,6 +171,7 @@ EOD;
 	{
 		$this->model->__call($FuncName,$arg);
 		$this->items = $this->model->getresult();
+		$this->json = $this->model->json;
 	}
 	public function Get($QueryColums,$Constraints,$limit,$order)
 	{
@@ -189,6 +190,7 @@ EOD;
 	}
 	public function GetJson()
 	{
+		
 		return json_encode($this->json);
 	}
 	

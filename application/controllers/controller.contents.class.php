@@ -24,5 +24,27 @@
 			//var_dump($this->model->getresult());	
 			
 		}
+		public function _save()
+		{
+			$id = $_REQUEST["id"];
+			$title = $_REQUEST["title"];
+			$subtitle = $_REQUEST["subtitle"];
+			$text = $_REQUEST["content"];
+			$parentid = $_REQUEST["parentid"];
+			$content = new contents;
+			if(empty($id))
+			{
+				$content->contentsName = $title;
+				$content->Summary = $subtitle;
+				$content->contentsText = $text;
+				$content->parentId = $parentid;
+				$content->save();
+			}
+			else
+			{
+				$content->Set(array("contentsName"=>$title,"Summary"=>$subtitle,"contentsText"=>$text),array("ContentsId={$id}"));
+			}
+			echo json_encode(true);
+		}
 	}
 ?>

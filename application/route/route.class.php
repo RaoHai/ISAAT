@@ -90,7 +90,7 @@ class Route
 		
 		private function dispatcher()
 		{
-			global $Permissions;
+		   global $Permissions;
 		   $controllerfile = APPLICATION_PATH."/controllers/controller.{$this->_controller}.class.php";
 		   $controllerName =$this->_controller;
 		   $func = "_".$this->_action;
@@ -105,7 +105,7 @@ class Route
 			$acl->addRole("guest");
 			$acl->allow("guest","index");
 			$acl->allow("guest","columns");
-		
+			$acl->allow("guest","contents");
 			
 			//$acl->allow("guest","user");
 			

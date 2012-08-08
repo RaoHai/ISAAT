@@ -24,9 +24,9 @@
 
 	static $_Struct=
 	array(
-		"columns" => array("columnsName","columnsDesc"),
+		"columns" => array("columnsName","columnsDesc","isshow"),
 		"childColumns"=>array("childColumnsName","parentColumns","desc"),
-		"contents"=>array("contentsName","contentsText","parentId","Catalog","titleImage","swapimage","Summary","href","time"),
+		"contents"=>array("contentsName","contentsText","parentId","Catalog","titleImage","swapimage","Summary","time"),
 		"user"=>array("UserName","PassWord","Salt")
 	);
 

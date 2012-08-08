@@ -15,6 +15,12 @@
 			$this->values = array("cols"=>$columns);
 			$this->RenderTemplate("index");
 		}
+		public function _getpermission()
+		{
+			if($_SESSION["permission"]=="admin")
+				echo json_encode(true);
+			else echo json_encode(false);
+		}
 		
 		
 	}
