@@ -1,3 +1,13 @@
+/*=============================================================================
+#     FileName: application.js
+#         Desc:  
+#       Author: surgesoft
+#        Email: surgesoft@gmail.com
+#     HomePage: surgesoft.github.com
+#      Version: 0.0.1
+#   LastChange: 2012-08-09 11:21:56
+#      History:
+=============================================================================*/
 $loadconsole = function()
 {
 
@@ -19,10 +29,9 @@ $initeditor = function(id,title,subtitle,context)
 		editor.html(context);
 		$("#modal-submit").show();
 		$("#myModal").css({width:800,left:"40%"});
-};	
+};
 $bindedit = function()
 {
-	console.log("hello");
 	$("#modal-table td[class=edit]").unbind("click");
 	$(".delcolumn").unbind("click");
 	$("#modal-table td[class=edit]").click(function()
@@ -126,24 +135,26 @@ $(document).ready(function(){
 								});//End addcolumns click
 						});//End $json
 				}) //End Click;
-		});//End $json
-
+		});//End $json 
 	$("#modal-submit").click(function()
 	{
-		id = $("#ctname").val();
-		title = $("#title").val();
-		subtitle = $("#subtitle").val();
-		parentid = $("#columnselect").val();
+		var tid = $("#ctname").val();
+		var title = $("#title").val();
+		var subtitle = $("#subtitle").val();
+		var parentid = $("#columnselect").val();
 		
-		content = encodeURIComponent(editor.html());
+		var content = encodeURIComponent(editor.html());
 			$.ajax({                                                
 					type: "POST",                                 
 					url: "/contents/save/",  
-					data: "id="+id+"&title="+title+"&subtitle="+subtitle+"&content="+content+"&parentid="+parentid,  
+					data: "id="+tid+"&title="+title+"&subtitle="+subtitle+"&content="+content+"&parentid="+parentid,  
 					dataType: "json",
 					success: function(msg){
 						$('#myModal').modal('hide');
 					}
 				});	
+
 	});
 });
+
+

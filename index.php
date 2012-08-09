@@ -1,4 +1,14 @@
 <?php
+/*=============================================================================
+#     FileName: index.php
+#         Desc:  
+#       Author: surgesoft
+#        Email: surgesoft@gmail.com
+#     HomePage: surgesoft.github.com
+#      Version: 0.0.1
+#   LastChange: 2012-08-09 11:23:15
+#      History:
+=============================================================================*/
 //header("content-Type: text/html; charset=utf-8");
 error_reporting(E_ALL);
    

@@ -46,7 +46,7 @@
 			$savedata;
             foreach ($_Struct[$this->instance] as $data)
 			{
-                $savedata[]=isset($this->$data)?$this->$data:0;
+                $savedata[]=isset($this->$data)?rawurlencode($this->$data):0;
             }
 			$this->model->New($savedata);
 			$this->model->getresult();

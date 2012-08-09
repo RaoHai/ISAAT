@@ -6768,3 +6768,1134 @@ SQL:select * from `contents`   where `contents`.`parentId` ='11'
 SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
 SQL:select * from `contents`   where `contents`.`parentId` ='12'
 SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='12'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='11'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='11'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='12'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='18'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='11'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='12'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='11'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='11'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='11'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='11'
+SQL:update contents set`contents`.`contentsName`='Topics',`contents`.`Summary`='Areas of Interest',`contents`.`contentsText`='<span style="white-space:nowrap;"><strong>Areas of Interest&nbsp;</strong></span><br />
+<span style="white-space:nowrap;">Contributions of the following areas are invited, but papers in other related areas will also be considered:</span><br />
+<span style="white-space:nowrap;">Abrasive machining</span><br />
+<span style="white-space:nowrap;">Abrasive jet machining</span><br />
+<span style="white-space:nowrap;">Grinding wheel and abrasive grain technologies</span><br />
+<span style="white-space:nowrap;">Advanced cutting technology</span><br />
+<span style="white-space:nowrap;">CMP and silicon wafer processing</span><br />
+<span style="white-space:nowrap;">Truing, dressing and ELID</span><br />
+<span style="white-space:nowrap;">Finishing, lapping and polishing</span><br />
+<span style="white-space:nowrap;">Design, fabrication and analysis of devices for the applications of abrasive technologies</span><br />
+<span style="white-space:nowrap;">Glass molding and related topics</span><br />
+<span style="white-space:nowrap;">Brittle material machining</span><br />
+<span style="white-space:nowrap;">Eco-machining</span><br />
+<span style="white-space:nowrap;">EDM, ultrasonic machining, and laser machining</span><br />
+<span style="white-space:nowrap;">High speed and high-efficiency machining</span><br />
+<span style="white-space:nowrap;">In-process measurement and monitoring, metrology</span><br />
+<span style="white-space:nowrap;">Machine tools and systems, tooling processing</span><br />
+<span style="white-space:nowrap;">Micro/Nano-machining</span><br />
+<span style="white-space:nowrap;">Coolants and cooling</span><br />
+<span style="white-space:nowrap;">Beam-aided processes</span><br />
+<span style="white-space:nowrap;">Surface integrity and materials characterization</span><br />
+<span style="white-space:nowrap;">Tribology in manufacturing</span><br />' where `contents`.`ContentsId`='1'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='11'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='11'
+SQL:update contents set`contents`.`contentsName`='Topics',`contents`.`Summary`='Areas of Interest',`contents`.`contentsText`='<span style="white-space:nowrap;color:#E53333;"><strong>Areas of Interest&nbsp;</strong></span><br />
+<span style="white-space:nowrap;">Contributions of the following areas are invited, but papers in other related areas will also be considered:</span><br />
+<span style="white-space:nowrap;">Abrasive machining</span><br />
+<span style="white-space:nowrap;">Abrasive jet machining</span><br />
+<span style="white-space:nowrap;">Grinding wheel and abrasive grain technologies</span><br />
+<span style="white-space:nowrap;">Advanced cutting technology</span><br />
+<span style="white-space:nowrap;">CMP and silicon wafer processing</span><br />
+<span style="white-space:nowrap;">Truing, dressing and ELID</span><br />
+<span style="white-space:nowrap;">Finishing, lapping and polishing</span><br />
+<span style="white-space:nowrap;">Design, fabrication and analysis of devices for the applications of abrasive technologies</span><br />
+<span style="white-space:nowrap;">Glass molding and related topics</span><br />
+<span style="white-space:nowrap;">Brittle material machining</span><br />
+<span style="white-space:nowrap;">Eco-machining</span><br />
+<span style="white-space:nowrap;">EDM, ultrasonic machining, and laser machining</span><br />
+<span style="white-space:nowrap;">High speed and high-efficiency machining</span><br />
+<span style="white-space:nowrap;">In-process measurement and monitoring, metrology</span><br />
+<span style="white-space:nowrap;">Machine tools and systems, tooling processing</span><br />
+<span style="white-space:nowrap;">Micro/Nano-machining</span><br />
+<span style="white-space:nowrap;">Coolants and cooling</span><br />
+<span style="white-space:nowrap;">Beam-aided processes</span><br />
+<span style="white-space:nowrap;">Surface integrity and materials characterization</span><br />
+<span style="white-space:nowrap;">Tribology in manufacturing</span><br />' where `contents`.`ContentsId`='1'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='11'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='11'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='11'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='12'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='11'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='11'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='11'
+SQL:update contents set`contents`.`contentsName`='Topics',`contents`.`Summary`='Areas of Interest',`contents`.`contentsText`='<span style="white-space:nowrap;color:#e53333;"><strong>Areas of Interest</strong></span><br />
+<span style="white-space:nowrap;">Contributions of the following areas are invited, but papers in other related areas will also be considered:</span><br />
+<span style="white-space:nowrap;">Abrasive machining</span><br />
+<span style="white-space:nowrap;">Abrasive jet machining</span><br />
+<span style="white-space:nowrap;">Grinding wheel and abrasive grain technologies</span><br />
+<span style="white-space:nowrap;">Advanced cutting technology</span><br />
+<span style="white-space:nowrap;">CMP and silicon wafer processing</span><br />
+<span style="white-space:nowrap;">Truing, dressing and ELID</span><br />
+<span style="white-space:nowrap;">Finishing, lapping and polishing</span><br />
+<span style="white-space:nowrap;">Design, fabrication and analysis of devices for the applications of abrasive technologies</span><br />
+<span style="white-space:nowrap;">Glass molding and related topics</span><br />
+<span style="white-space:nowrap;">Brittle material machining</span><br />
+<span style="white-space:nowrap;">Eco-machining</span><br />
+<span style="white-space:nowrap;">EDM, ultrasonic machining, and laser machining</span><br />
+<span style="white-space:nowrap;">High speed and high-efficiency machining</span><br />
+<span style="white-space:nowrap;">In-process measurement and monitoring, metrology</span><br />
+<span style="white-space:nowrap;">Machine tools and systems, tooling processing</span><br />
+<span style="white-space:nowrap;">Micro/Nano-machining</span><br />
+<span style="white-space:nowrap;">Coolants and cooling</span><br />
+<span style="white-space:nowrap;">Beam-aided processes</span><br />
+<span style="white-space:nowrap;">Surface integrity and materials characterization</span><br />
+<span style="white-space:nowrap;">Tribology in manufacturing</span><br />' where `contents`.`ContentsId`='1'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='11'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='12'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='13'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='11'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='13'
+SQL:insert into `contents`(contentsName,contentsText,parentId,Catalog,titleImage,swapimage,Summary,time) VALUES('Call for Papers','<h3 style="margin:0px 0px 0.25em;padding:0px;font-size:17px;font-family:Arial, Helvetica, sans-serif;font-weight:normal;color:#222222;line-height:normal;white-space:normal;background-color:#FFFFFF;">
+	<strong style="margin:0px;padding:0px;">Paper Presentation &amp; Publication</strong>
+</h3>
+<p style="margin-top:0px;margin-bottom:1em;padding:0px;font-size:13px;line-height:1.5em;color:#444444;font-family:Arial, Helvetica, sans-serif;white-space:normal;background-color:#FFFFFF;">
+	All papers will be peer reviewed. Accepted papers MUST be presented. Each delegate may present up to two papers orally. The conference proceedings will be published as special volumes in an EI indexed international journal:<b style="margin:0px;padding:0px;"><a href="http://www.scientific.net/AMR" style="margin:0px;padding:0px;color:#003366;background-color:transparent;text-decoration:none;">Advanced Materials Research</a>.&nbsp;</b>Selected papers will be published in special issues of other international journals currently under discussion.
+</p>
+<hr style="margin:0px 0px 0.5em;padding:0px 0px 0.5em;height:1px;border-top-width:0px;border-right-width:0px;border-left-width:0px;border-bottom-style:solid;border-bottom-color:#EEEEEE;font-size:13px;color:#FFFFFF;background-color:#FFFFFF;font-family:Arial, Helvetica, sans-serif;line-height:normal;white-space:normal;" />
+<h3 style="margin:0px 0px 0.25em;padding:0px;font-size:17px;font-family:Arial, Helvetica, sans-serif;font-weight:normal;color:#222222;line-height:normal;white-space:normal;background-color:#FFFFFF;">
+	<strong style="margin:0px;padding:0px;">Paper Submission</strong>
+</h3>
+<ul style="margin:0px 0px 1em 1em;padding:0px;font-size:13px;line-height:1.5em;color:#444444;font-family:Arial, Helvetica, sans-serif;white-space:normal;background-color:#FFFFFF;">
+	<li style="margin:0px 0px 0px 0.8em;padding:0px;line-height:1.5em;">
+		<p style="margin-top:0px;margin-bottom:1em;padding:0px;line-height:1.5em;">
+			Papers must be written in English and are limited to 6 proceedings pages.
+		</p>
+	</li>
+	<li style="margin:0px 0px 0px 0.8em;padding:0px;line-height:1.5em;">
+		<p style="margin-top:0px;margin-bottom:1em;padding:0px;line-height:1.5em;">
+			Each paper must be formatted according to the&nbsp;<b style="margin:0px;padding:0px;">Instructions for Authors&nbsp;</b>available at the bottom of this page, and submitted via the conference website. For further information please contact us by using our contact form our via Email:
+		</p>
+		<ul style="margin:0px 0px 0px 1em;padding:0px;line-height:1.5em;">
+			<li style="margin:0px 0px 0px 0.8em;padding:0px;line-height:1.5em;">
+				<p style="margin-top:0px;margin-bottom:1em;padding:0px;line-height:1.5em;">
+					<a href="http://ksf.hs-furtwangen.de/ISAAT2011/contact_us" style="margin:0px;padding:0px;color:#003366;background-color:transparent;text-decoration:none;">Contact Form</a>
+				</p>
+			</li>
+			<li style="margin:0px 0px 0px 0.8em;padding:0px;line-height:1.5em;">
+				<p style="margin-top:0px;margin-bottom:1em;padding:0px;line-height:1.5em;">
+					<a href="mailto:isaat2011@hs-furtwangen.de?subject=%5BISAAT2011-%20Webpage%5D" style="margin:0px;padding:0px;color:#003366;background-color:transparent;text-decoration:none;">isaat2011@hs-furtwangen.de</a>
+				</p>
+			</li>
+		</ul>
+	</li>
+</ul>
+<p style="margin-top:0px;margin-bottom:1em;padding:0px;font-size:13px;line-height:1.5em;color:#444444;font-family:Arial, Helvetica, sans-serif;white-space:normal;background-color:#FFFFFF;">
+	&nbsp;
+</p>
+<p style="margin-top:0px;margin-bottom:1em;padding:0px;font-size:13px;line-height:1.5em;color:#444444;font-family:Arial, Helvetica, sans-serif;white-space:normal;background-color:#FFFFFF;">
+	&nbsp;
+</p>
+<table class="sticky-header" style="margin:0px 0px 0.5em;padding:0px;font-size:13px;width:673px;background-color:#FFFFFF;color:#444444;font-family:Arial, Helvetica, sans-serif;text-align:left;position:fixed;top:0px;left:457px;visibility:hidden;">
+	<thead style="margin:0px;padding:0px;">
+		<tr style="margin:0px;padding:0px;">
+			<th style="margin:0px;padding:0.3em 1em 0.3em 0.5em;border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#D3E7F4;width:511.48333740234375px;">
+			</th>
+			<th style="margin:0px;padding:0.3em 1em 0.3em 0.5em;border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#D3E7F4;width:122.48332977294922px;">
+			</th>
+		</tr>
+	</thead>
+</table>
+<table id="attachments" class="sticky-enabled sticky-table" style="margin:0px 0px 0.5em;padding:0px;font-size:13px;width:673px;color:#444444;font-family:Arial, Helvetica, sans-serif;text-align:left;background-color:#FFFFFF;">
+	<thead class="tableHeader-processed" style="margin:0px;padding:0px;">
+		<tr style="margin:0px;padding:0px;">
+			<th style="margin:0px;padding:0.3em 1em 0.3em 0.5em;border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#D3E7F4;">
+				Attachment
+			</th>
+			<th style="margin:0px;padding:0.3em 1em 0.3em 0.5em;border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#D3E7F4;">
+				Size
+			</th>
+		</tr>
+	</thead>
+	<tbody style="margin:0px;padding:0px;border:0px;">
+		<tr class="odd" style="margin:0px;padding:0.1em 0.6em;background-color:#EDF5FA;border-width:1px 0px;border-style:solid;border-color:#D3E7F4;">
+			<td style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+				<a href="http://ksf.hs-furtwangen.de/ISAAT2011/sites/default/files/papers/authorinstructions.rtf" style="margin:0px;padding:0px;color:#003366;background-color:transparent;text-decoration:none;">Author Instructions</a>
+			</td>
+			<td style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+				75.73 KB
+			</td>
+		</tr>
+		<tr class="even" style="margin:0px;padding:0.1em 0.6em;border-width:1px 0px;border-style:solid;border-color:#D3E7F4;">
+			<td style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+				<a href="http://ksf.hs-furtwangen.de/ISAAT2011/sites/default/files/papers/call_for_paper_isaat2011_flyer_28.05.2011_0.pdf" style="margin:0px;padding:0px;color:#003366;background-color:transparent;text-decoration:none;">call_for_paper_isaat2011_flyer_28.05.2011.pdf</a>
+			</td>
+			<td style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+				171.67 KB
+			</td>
+		</tr>
+	</tbody>
+</table>','13','0','0','0','Paper Presentation ','0')
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='13'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='11'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='13'
+SQL:update contents set`contents`.`contentsName`='Call for Papers',`contents`.`Summary`='Paper Presentation ',`contents`.`contentsText`='<h3 style="margin:0px 0px 0.25em;padding:0px;font-size:17px;font-family:Arial, Helvetica, sans-serif;font-weight:normal;color:#222222;line-height:normal;white-space:normal;background-color:#FFFFFF;">
+	<strong style="margin:0px;padding:0px;">Paper Presentation &amp; Publication</strong> 
+</h3>
+<p style="margin-top:0px;margin-bottom:1em;padding:0px;font-size:13px;line-height:1.5em;color:#444444;font-family:Arial, Helvetica, sans-serif;white-space:normal;background-color:#FFFFFF;">
+	All papers will be peer reviewed. Accepted papers MUST be presented. Each delegate may present up to two papers orally. The conference proceedings will be published as special volumes in an EI indexed international journal:<b style="margin:0px;padding:0px;"><a href="http://www.scientific.net/AMR" style="margin:0px;padding:0px;color:#003366;background-color:transparent;text-decoration:none;">Advanced Materials Research</a>.&nbsp;</b>Selected papers will be published in special issues of other international journals currently under discussion.
+</p>
+<hr style="margin:0px 0px 0.5em;padding:0px 0px 0.5em;height:1px;border-top-width:0px;border-right-width:0px;border-left-width:0px;border-bottom-style:solid;border-bottom-color:#EEEEEE;font-size:13px;color:#FFFFFF;background-color:#FFFFFF;font-family:Arial, Helvetica, sans-serif;line-height:normal;white-space:normal;" />
+<h3 style="margin:0px 0px 0.25em;padding:0px;font-size:17px;font-family:Arial, Helvetica, sans-serif;font-weight:normal;color:#222222;line-height:normal;white-space:normal;background-color:#FFFFFF;">
+	<strong style="margin:0px;padding:0px;">Paper Submission</strong>
+</h3>
+<h3 style="margin:0px 0px 0.25em;padding:0px;font-size:17px;font-family:Arial, Helvetica, sans-serif;font-weight:normal;color:#222222;line-height:normal;white-space:normal;background-color:#FFFFFF;">
+	<span style="line-height:1.5em;color:#444444;font-size:13px;">Papers must be written in English and are limited to 6 proceedings pages.</span>
+</h3>
+<h3 style="margin:0px 0px 0.25em;padding:0px;font-size:17px;font-family:Arial, Helvetica, sans-serif;font-weight:normal;color:#222222;line-height:normal;white-space:normal;background-color:#FFFFFF;">
+	<span style="line-height:1.5em;color:#444444;font-size:13px;">Each paper must be formatted according to the&nbsp;</span><b style="line-height:1.5em;color:#444444;font-size:13px;margin:0px;padding:0px;">Instructions for Authors&nbsp;</b><span style="line-height:1.5em;color:#444444;font-size:13px;">available at the bottom of this page, and submitted via the conference website. For further information please contact us by using our contact form our via Email:</span>
+</h3>
+<p>
+	<a href="http://ksf.hs-furtwangen.de/ISAAT2011/contact_us" style="line-height:1.5em;background-color:transparent;font-size:13px;margin:0px;padding:0px;color:#003366;text-decoration:none;">Contact Form</a>
+</p>
+<p>
+	<a href="mailto:isaat2011@hs-furtwangen.de?subject=[ISAAT2011- Webpage]" style="line-height:1.5em;font-family:Arial, Helvetica, sans-serif;font-size:13px;margin:0px;padding:0px;color:#003366;text-decoration:none;">isaat2011@hs-furtwangen.de</a>
+</p>
+<p style="margin-top:0px;margin-bottom:1em;padding:0px;font-size:13px;line-height:1.5em;color:#444444;font-family:Arial, Helvetica, sans-serif;white-space:normal;background-color:#FFFFFF;">
+	&nbsp;
+</p>
+<p style="margin-top:0px;margin-bottom:1em;padding:0px;font-size:13px;line-height:1.5em;color:#444444;font-family:Arial, Helvetica, sans-serif;white-space:normal;background-color:#FFFFFF;">
+	&nbsp;
+</p>
+<table class="sticky-header" style="margin:0px 0px 0.5em;padding:0px;font-size:13px;width:673px;background-color:#FFFFFF;color:#444444;font-family:Arial, Helvetica, sans-serif;text-align:left;position:fixed;top:0px;left:457px;visibility:hidden;">
+	<thead style="margin:0px;padding:0px;">
+		<tr style="margin:0px;padding:0px;">
+			<th style="margin:0px;padding:0.3em 1em 0.3em 0.5em;border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#D3E7F4;width:511.48333740234375px;">
+			</th>
+			<th style="margin:0px;padding:0.3em 1em 0.3em 0.5em;border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#D3E7F4;width:122.48332977294922px;">
+			</th>
+		</tr>
+	</thead>
+</table>
+<table id="attachments" class="sticky-enabled sticky-table" style="margin:0px 0px 0.5em;padding:0px;font-size:13px;width:673px;color:#444444;font-family:Arial, Helvetica, sans-serif;text-align:left;background-color:#FFFFFF;">
+	<thead class="tableHeader-processed" style="margin:0px;padding:0px;">
+		<tr style="margin:0px;padding:0px;">
+			<th style="margin:0px;padding:0.3em 1em 0.3em 0.5em;border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#D3E7F4;">
+				Attachment
+			</th>
+			<th style="margin:0px;padding:0.3em 1em 0.3em 0.5em;border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#D3E7F4;">
+				Size
+			</th>
+		</tr>
+	</thead>
+	<tbody style="margin:0px;padding:0px;border:0px;">
+		<tr class="odd" style="margin:0px;padding:0.1em 0.6em;background-color:#EDF5FA;border-width:1px 0px;border-style:solid;border-color:#D3E7F4;">
+			<td style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+				<a href="http://ksf.hs-furtwangen.de/ISAAT2011/sites/default/files/papers/authorinstructions.rtf" style="margin:0px;padding:0px;color:#003366;background-color:transparent;text-decoration:none;">Author Instructions</a> 
+			</td>
+			<td style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+				75.73 KB
+			</td>
+		</tr>
+		<tr class="even" style="margin:0px;padding:0.1em 0.6em;border-width:1px 0px;border-style:solid;border-color:#D3E7F4;">
+			<td style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+				<a href="http://ksf.hs-furtwangen.de/ISAAT2011/sites/default/files/papers/call_for_paper_isaat2011_flyer_28.05.2011_0.pdf" style="margin:0px;padding:0px;color:#003366;background-color:transparent;text-decoration:none;">call_for_paper_isaat2011_flyer_28.05.2011.pdf</a> 
+			</td>
+			<td style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+				171.67 KB
+			</td>
+		</tr>
+	</tbody>
+</table>' where `contents`.`ContentsId`='5'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='13'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='13'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='13'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='13'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='13'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='12'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='11'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='13'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='18'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='12'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='14'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='13'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='14'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='13'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='14'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='15'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='12'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='13'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='14'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='15'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='16'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='17'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='18'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='13'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='14'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='15'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='16'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='17'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='18'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='15'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='15'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='11'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='15'
+SQL:insert into `contents`(contentsName,contentsText,parentId,Catalog,titleImage,swapimage,Summary,time) VALUES('Registration','<b style="margin:0px;padding:0px;font-size:13px;color:#444444;font-family:Arial, Helvetica, sans-serif;line-height:19.516666412353516px;white-space:normal;background-color:#FFFFFF;">This Registration is closed since 15.06.2011. If you want to register for the ISAAT2011 conference, please use the&nbsp;<a href="http://ksf.hs-furtwangen.de/ISAAT2011/content/registration-fees-late-registration-onafter-15-june" style="margin:0px;padding:0px;color:#003366;background-color:transparent;text-decoration:none;">late registration</a>&nbsp;form.
+<p style="margin-top:0px;margin-bottom:1em;padding:0px;font-size:13px;line-height:1.5em;color:#444444;font-family:Arial, Helvetica, sans-serif;white-space:normal;background-color:#FFFFFF;">
+	After registration we will send an invoice for the fee to your email address.&nbsp;<br style="margin:0px;padding:0px;" />
+The fees must be paid via bank transfer to the account of the Hochschule Furtwangen.
+</p>
+<p style="margin-top:0px;margin-bottom:1em;padding:0px;font-size:13px;line-height:1.5em;color:#444444;font-family:Arial, Helvetica, sans-serif;white-space:normal;background-color:#FFFFFF;">
+	<b style="margin:0px;padding:0px;">Bank Information:<b style="margin:0px;padding:0px;"></b></b>
+</p>
+<p style="margin-top:0px;margin-bottom:1em;padding:0px;font-size:13px;line-height:1.5em;color:#444444;font-family:Arial, Helvetica, sans-serif;white-space:normal;background-color:#FFFFFF;">
+	Bank Name:	 Postbank Karlsruhe<br style="margin:0px;padding:0px;" />
+Bank Address:	Kriegstr. 100, D-76133 Karlsruhe
+</p>
+<p style="margin-top:0px;margin-bottom:1em;padding:0px;font-size:13px;line-height:1.5em;color:#444444;font-family:Arial, Helvetica, sans-serif;white-space:normal;background-color:#FFFFFF;">
+	Company Name:	Hochschule Furtwangen University<br style="margin:0px;padding:0px;" />
+Contact Person:	ISAAT2011 / KSF
+</p>
+<p style="margin-top:0px;margin-bottom:1em;padding:0px;font-size:13px;line-height:1.5em;color:#444444;font-family:Arial, Helvetica, sans-serif;white-space:normal;background-color:#FFFFFF;">
+	Account No.	 224 00 754<br style="margin:0px;padding:0px;" />
+Branch Code:	660 100 75<br style="margin:0px;padding:0px;" />
+IBAN:	 DE24 6601 0075 0022 4007 54<br style="margin:0px;padding:0px;" />
+Swift/BIC:	 PBNKDEFF
+</p>
+<p style="margin-top:0px;margin-bottom:1em;padding:0px;font-size:13px;line-height:1.5em;color:#444444;font-family:Arial, Helvetica, sans-serif;white-space:normal;background-color:#FFFFFF;">
+	Please mention on your order number (registrations ID) and ISAAT2011 as the payment reasons.
+</p>
+<p style="margin-top:0px;margin-bottom:1em;padding:0px;font-size:13px;line-height:1.5em;color:#444444;font-family:Arial, Helvetica, sans-serif;white-space:normal;background-color:#FFFFFF;">
+	You can download the bank Informations using the link below:
+</p>
+<table class="sticky-header" style="margin:0px 0px 0.5em;padding:0px;font-size:13px;width:673px;background-color:#FFFFFF;color:#444444;font-family:Arial, Helvetica, sans-serif;text-align:left;position:fixed;top:0px;left:457px;visibility:hidden;">
+	<thead style="margin:0px;padding:0px;">
+		<tr style="margin:0px;padding:0px;">
+			<th style="margin:0px;padding:0.3em 1em 0.3em 0.5em;border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#D3E7F4;width:523.4833374023438px;">
+			</th>
+			<th style="margin:0px;padding:0.3em 1em 0.3em 0.5em;border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#D3E7F4;width:110.48332977294922px;">
+			</th>
+		</tr>
+	</thead>
+</table>
+<table id="attachments" class="sticky-enabled sticky-table" style="margin:0px 0px 0.5em;padding:0px;font-size:13px;width:673px;color:#444444;font-family:Arial, Helvetica, sans-serif;text-align:left;background-color:#FFFFFF;">
+	<thead class="tableHeader-processed" style="margin:0px;padding:0px;">
+		<tr style="margin:0px;padding:0px;">
+			<th style="margin:0px;padding:0.3em 1em 0.3em 0.5em;border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#D3E7F4;">
+				Attachment
+			</th>
+			<th style="margin:0px;padding:0.3em 1em 0.3em 0.5em;border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#D3E7F4;">
+				Size
+			</th>
+		</tr>
+	</thead>
+	<tbody style="margin:0px;padding:0px;border:0px;">
+		<tr class="odd" style="margin:0px;padding:0.1em 0.6em;background-color:#EDF5FA;border-width:1px 0px;border-style:solid;border-color:#D3E7F4;">
+			<td style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+				<a href="http://ksf.hs-furtwangen.de/ISAAT2011/sites/default/files/papers/bank_informations_isaat2011.doc" style="margin:0px;padding:0px;color:#003366;background-color:transparent;text-decoration:none;">bank_informations_isaat2011.doc</a>
+			</td>
+			<td style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+				22 KB
+			</td>
+		</tr>
+	</tbody>
+</table>
+</b>','15','0','0','0','Registration Fees','0')
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='14'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='14'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='13'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='14'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='13'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='15'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='14'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='15'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='16'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='11'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='16'
+SQL:insert into `contents`(contentsName,contentsText,parentId,Catalog,titleImage,swapimage,Summary,time) VALUES('Sponsors','<br class="Apple-interchange-newline" />
+<table width="100%" cellspacing="1" cellpadding="1" border="1" align="center" style="margin:0px 0px 0.5em;padding:0px;font-size:13px;width:672px;color:#444444;font-family:Arial, Helvetica, sans-serif;text-align:left;background-color:#FFFFFF;">
+	<tbody style="margin:0px;padding:0px;border:0px;">
+		<tr style="margin:0px;padding:0px;">
+			<td style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+				&nbsp;
+			</td>
+			<td class="rteleft" style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+				Sponsor information
+			</td>
+		</tr>
+		<tr style="margin:0px;padding:0px;">
+			<td style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+				<p class="rtecenter" style="margin-top:0px;margin-bottom:1em;padding:0px;line-height:1.5em;text-align:center;">
+					<a target="_blank" href="http://www.hs-furtwangen.de/" style="margin:0px;padding:0px;color:#003366;background-color:transparent;text-decoration:none;"><img width="180" height="73" alt="" src="http://ksf.hs-furtwangen.de/userfiles/image/Logo_HFU_4c.jpg" style="margin:0px;padding:0px;border-style:solid;" /></a>
+				</p>
+			</td>
+			<td class="rteleft" style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+				<strong style="margin:0px;padding:0px;">Hochschule Furtwangen University (HFU)</strong>
+			</td>
+		</tr>
+		<tr style="margin:0px;padding:0px;">
+			<td style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+				<p class="rtecenter" style="margin-top:0px;margin-bottom:1em;padding:0px;line-height:1.5em;text-align:center;">
+					<a target="_blank" href="http://ksf.hs-furtwangen.de/" style="margin:0px;padding:0px;color:#003366;background-color:transparent;text-decoration:none;"><img width="163" height="80" alt="" src="http://ksf.hs-furtwangen.de/userfiles/image/KSF.png" style="margin:0px;padding:0px;border-style:solid;" /></a>
+				</p>
+			</td>
+			<td class="rteleft" style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+				<strong style="margin:0px;padding:0px;">Institute of Grinding and Precision Technology (KSF)</strong>
+			</td>
+		</tr>
+		<tr style="margin:0px;padding:0px;">
+			<td style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+				<p class="rtecenter" style="margin-top:0px;margin-bottom:1em;padding:0px;line-height:1.5em;text-align:center;">
+					<a href="http://www.dfg.de/" target="_blank" style="margin:0px;padding:0px;color:#003366;background-color:transparent;text-decoration:none;"><img width="119" height="50" align="middle" alt="" src="http://ksf.hs-furtwangen.de/userfiles/image/DFG(1).png" style="margin:0px;padding:0px;border-style:solid;" /></a>
+				</p>
+			</td>
+			<td class="rteleft" style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+				<p style="margin-top:0px;margin-bottom:1em;padding:0px;line-height:1.5em;">
+					&nbsp;
+				</p>
+				<p style="margin-top:0px;margin-bottom:1em;padding:0px;line-height:1.5em;">
+					<strong style="margin:0px;padding:0px;">German Research Foundation (DFG)</strong>
+				</p>
+				<p style="margin-top:0px;margin-bottom:1em;padding:0px;line-height:1.5em;">
+					&nbsp;
+				</p>
+			</td>
+		</tr>
+		<tr style="margin:0px;padding:0px;">
+			<td style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+				<p class="rtecenter" style="margin-top:0px;margin-bottom:1em;padding:0px;line-height:1.5em;text-align:center;">
+					<a href="http://www.effgen.de/" target="_blank" style="margin:0px;padding:0px;color:#003366;background-color:transparent;text-decoration:none;"><img width="121" height="23" align="middle" alt="effgen_logo.png" src="http://ksf.hs-furtwangen.de/userfiles/effgen.png" style="margin:0px;padding:0px;border-style:solid;" /></a>
+				</p>
+			</td>
+			<td class="rteleft" style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+				<p style="margin-top:0px;margin-bottom:1em;padding:0px;line-height:1.5em;">
+					&nbsp;
+				</p>
+				<p style="margin-top:0px;margin-bottom:1em;padding:0px;line-height:1.5em;">
+					<strong style="margin:0px;padding:0px;">Günter Effgen GmbH, Herrstein, Germany</strong>
+				</p>
+				<p style="margin-top:0px;margin-bottom:1em;padding:0px;line-height:1.5em;">
+					&nbsp;
+				</p>
+			</td>
+		</tr>
+		<tr style="margin:0px;padding:0px;">
+			<td class="rtecenter" style="margin:0px;padding:0.3em 0.5em;font-size:13px;text-align:center;">
+				<a href="http://ihome.ust.hk/~meygao/ICAT/" target="_blank" style="margin:0px;padding:0px;color:#003366;background-color:transparent;text-decoration:none;"><img width="163" height="150" alt="" src="http://ksf.hs-furtwangen.de/userfiles/image/ICAT.png" style="margin:0px;padding:0px;border-style:solid;" /></a>
+			</td>
+			<td class="rteright" style="margin:0px;padding:0.3em 0.5em;font-size:13px;text-align:right;">
+				<p class="rteleft" style="margin-top:0px;margin-bottom:1em;padding:0px;line-height:1.5em;text-align:left;">
+					&nbsp;
+				</p>
+				<p class="rteleft" style="margin-top:0px;margin-bottom:1em;padding:0px;line-height:1.5em;text-align:left;">
+					<strong style="margin:0px;padding:0px;">International Committee for Abrasive Technology (ICAT)</strong>
+				</p>
+				<div class="rteleft" style="margin:0px;padding:0px;outline:none 0px;text-align:left;">
+					<span class="style6" style="margin:0px;padding:0px;">The International Committee for Abrasive Technology (ICAT) was founded in 2002 with representative researchers in the field of abrasive technology across the world as its members. It is aimed to promote the discipline development and foster research collaboration in this field. One of its major programs is the annual International Symposium on Advances in Abrasive Technology which attracted a large number of academic researchers and industrial practitioners each year to participate in this event.
+					<p style="margin-top:0px;margin-bottom:1em;padding:0px;line-height:1.5em;">
+						&nbsp;
+					</p>
+					<p style="margin-top:0px;margin-bottom:1em;padding:0px;line-height:1.5em;">
+						<br />
+					</p>
+</span>
+				</div>
+			</td>
+		</tr>
+		<tr style="margin:0px;padding:0px;">
+			<td style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+				<p class="rtecenter" style="margin-top:0px;margin-bottom:1em;padding:0px;line-height:1.5em;text-align:center;">
+					<strong style="margin:0px;padding:0px;"><a href="http://www.jsat.or.jp/" target="_blank" style="margin:0px;padding:0px;color:#003366;background-color:transparent;text-decoration:none;"><img width="126" height="179" alt="" src="http://ksf.hs-furtwangen.de/userfiles/image/JSAT.png" style="margin:0px;padding:0px;border-style:solid;" /></a></strong>
+				</p>
+			</td>
+			<td class="rteright" style="margin:0px;padding:0.3em 0.5em;font-size:13px;text-align:right;">
+				<p class="rteleft" style="margin-top:0px;margin-bottom:1em;padding:0px;line-height:1.5em;text-align:left;">
+					<strong style="margin:0px;padding:0px;">Japan Society for Abrasive Technology (JSAT)</strong>
+				</p>
+				<div class="rteleft" style="margin:0px;padding:0px;outline:none 0px;text-align:left;">
+					<span class="style6" style="margin:0px;padding:0px;">The Japanese Society of Abrasive Technology (JSAT) was established in 1956, and is a well-known organization in the world of manufacturing. JSAT offers technological information and knowledge directly associated with production, particularly for a wide range of abrasive technologies, including machining, tooling, machine tool, metrology and micro/nano-fabrication.</span>
+				</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<p style="margin-top:0px;margin-bottom:1em;padding:0px;font-size:13px;line-height:1.5em;color:#444444;font-family:Arial, Helvetica, sans-serif;white-space:normal;background-color:#FFFFFF;">
+	&nbsp;
+</p>
+<p style="margin-top:0px;margin-bottom:1em;padding:0px;font-size:13px;line-height:1.5em;color:#444444;font-family:Arial, Helvetica, sans-serif;white-space:normal;background-color:#FFFFFF;">
+	&nbsp;
+</p>','16','0','0','0','Sponsors','0')
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='16'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='11'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='16'
+SQL:update contents set`contents`.`contentsName`='Sponsors',`contents`.`Summary`='Sponsors',`contents`.`contentsText`='<br class="Apple-interchange-newline" />
+<table width="100%" cellspacing="1" cellpadding="1" border="1" align="center" style="margin:0px 0px 0.5em;padding:0px;font-size:13px;width:672px;color:#444444;font-family:Arial, Helvetica, sans-serif;text-align:left;background-color:#FFFFFF;">
+	<tbody style="margin:0px;padding:0px;border:0px;">
+		<tr style="margin:0px;padding:0px;">
+			<td style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+				&nbsp;
+			</td>
+			<td class="rteleft" style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+				Sponsor information
+			</td>
+		</tr>
+		<tr style="margin:0px;padding:0px;">
+			<td style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+				<p class="rtecenter" style="margin-top:0px;margin-bottom:1em;padding:0px;line-height:1.5em;text-align:center;">
+					<a target="_blank" href="http://www.hs-furtwangen.de/" style="margin:0px;padding:0px;color:#003366;background-color:transparent;text-decoration:none;"><img width="180" height="73" alt="" src="http://ksf.hs-furtwangen.de/userfiles/image/Logo_HFU_4c.jpg" style="margin:0px;padding:0px;border-style:solid;" /></a> 
+				</p>
+			</td>
+			<td class="rteleft" style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+				<strong style="margin:0px;padding:0px;">Hochschule Furtwangen University (HFU)</strong> 
+			</td>
+		</tr>
+		<tr style="margin:0px;padding:0px;">
+			<td style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+				<p class="rtecenter" style="margin-top:0px;margin-bottom:1em;padding:0px;line-height:1.5em;text-align:center;">
+					<a target="_blank" href="http://ksf.hs-furtwangen.de/" style="margin:0px;padding:0px;color:#003366;background-color:transparent;text-decoration:none;"><img width="163" height="80" alt="" src="http://ksf.hs-furtwangen.de/userfiles/image/KSF.png" style="margin:0px;padding:0px;border-style:solid;" /></a> 
+				</p>
+			</td>
+			<td class="rteleft" style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+				<strong style="margin:0px;padding:0px;">Institute of Grinding and Precision Technology (KSF)</strong> 
+			</td>
+		</tr>
+		<tr style="margin:0px;padding:0px;">
+			<td style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+				<p class="rtecenter" style="margin-top:0px;margin-bottom:1em;padding:0px;line-height:1.5em;text-align:center;">
+					<a href="http://www.dfg.de/" target="_blank" style="margin:0px;padding:0px;color:#003366;background-color:transparent;text-decoration:none;"><img width="119" height="50" align="middle" alt="" src="http://ksf.hs-furtwangen.de/userfiles/image/DFG(1).png" style="margin:0px;padding:0px;border-style:solid;" /></a> 
+				</p>
+			</td>
+			<td class="rteleft" style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+				<p style="margin-top:0px;margin-bottom:1em;padding:0px;line-height:1.5em;">
+					&nbsp;
+				</p>
+				<p style="margin-top:0px;margin-bottom:1em;padding:0px;line-height:1.5em;">
+					<strong style="margin:0px;padding:0px;">German Research Foundation (DFG)</strong> 
+				</p>
+				<p style="margin-top:0px;margin-bottom:1em;padding:0px;line-height:1.5em;">
+					&nbsp;
+				</p>
+			</td>
+		</tr>
+		<tr style="margin:0px;padding:0px;">
+			<td style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+				<p class="rtecenter" style="margin-top:0px;margin-bottom:1em;padding:0px;line-height:1.5em;text-align:center;">
+					<a href="http://www.effgen.de/" target="_blank" style="margin:0px;padding:0px;color:#003366;background-color:transparent;text-decoration:none;"><img width="121" height="23" align="middle" alt="effgen_logo.png" src="http://ksf.hs-furtwangen.de/userfiles/effgen.png" style="margin:0px;padding:0px;border-style:solid;" /></a> 
+				</p>
+			</td>
+			<td class="rteleft" style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+				<p style="margin-top:0px;margin-bottom:1em;padding:0px;line-height:1.5em;">
+					&nbsp;
+				</p>
+				<p style="margin-top:0px;margin-bottom:1em;padding:0px;line-height:1.5em;">
+					<strong style="margin:0px;padding:0px;">Günter Effgen GmbH, Herrstein, Germany</strong> 
+				</p>
+				<p style="margin-top:0px;margin-bottom:1em;padding:0px;line-height:1.5em;">
+					&nbsp;
+				</p>
+			</td>
+		</tr>
+		<tr style="margin:0px;padding:0px;">
+			<td class="rtecenter" style="margin:0px;padding:0.3em 0.5em;font-size:13px;text-align:center;">
+				<a href="http://ihome.ust.hk/~meygao/ICAT/" target="_blank" style="margin:0px;padding:0px;color:#003366;background-color:transparent;text-decoration:none;"><img width="163" height="150" alt="" src="http://ksf.hs-furtwangen.de/userfiles/image/ICAT.png" style="margin:0px;padding:0px;border-style:solid;" /></a> 
+			</td>
+			<td class="rteright" style="margin:0px;padding:0.3em 0.5em;font-size:13px;text-align:right;">
+				<p class="rteleft" style="margin-top:0px;margin-bottom:1em;padding:0px;line-height:1.5em;text-align:left;">
+					&nbsp;
+				</p>
+				<p class="rteleft" style="margin-top:0px;margin-bottom:1em;padding:0px;line-height:1.5em;text-align:left;">
+					<strong style="margin:0px;padding:0px;">International Committee for Abrasive Technology (ICAT)</strong> 
+				</p>
+				<div class="rteleft" style="margin:0px;padding:0px;outline:none 0px;text-align:left;">
+					<span class="style6" style="margin:0px;padding:0px;">The International Committee for Abrasive Technology (ICAT) was founded in 2002 with representative researchers in the field of abrasive technology across the world as its members. It is aimed to promote the discipline development and foster research collaboration in this field. One of its major programs is the annual International Symposium on Advances in Abrasive Technology which attracted a large number of academic researchers and industrial practitioners each year to participate in this event.
+					<p style="margin-top:0px;margin-bottom:1em;padding:0px;line-height:1.5em;">
+						&nbsp;
+					</p>
+					<p style="margin-top:0px;margin-bottom:1em;padding:0px;line-height:1.5em;">
+						<br />
+					</p>
+</span> 
+				</div>
+			</td>
+		</tr>
+		<tr style="margin:0px;padding:0px;">
+			<td style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+				<p class="rtecenter" style="margin-top:0px;margin-bottom:1em;padding:0px;line-height:1.5em;text-align:center;">
+					<strong style="margin:0px;padding:0px;"><a href="http://www.jsat.or.jp/" target="_blank" style="margin:0px;padding:0px;color:#003366;background-color:transparent;text-decoration:none;"><img width="126" height="179" alt="" src="http://ksf.hs-furtwangen.de/userfiles/image/JSAT.png" style="margin:0px;padding:0px;border-style:solid;" /></a></strong> 
+				</p>
+			</td>
+			<td class="rteright" style="margin:0px;padding:0.3em 0.5em;font-size:13px;text-align:right;">
+				<p class="rteleft" style="margin-top:0px;margin-bottom:1em;padding:0px;line-height:1.5em;text-align:left;">
+					<strong style="margin:0px;padding:0px;">Japan Society for Abrasive Technology (JSAT)</strong> 
+				</p>
+				<div class="rteleft" style="margin:0px;padding:0px;outline:none 0px;text-align:left;">
+					<span class="style6" style="margin:0px;padding:0px;">The Japanese Society of Abrasive Technology (JSAT) was established in 1956, and is a well-known organization in the world of manufacturing. JSAT offers technological information and knowledge directly associated with production, particularly for a wide range of abrasive technologies, including machining, tooling, machine tool, metrology and micro/nano-fabrication.</span> 
+				</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<p style="margin-top:0px;margin-bottom:1em;padding:0px;font-size:13px;line-height:1.5em;color:#444444;font-family:Arial, Helvetica, sans-serif;white-space:normal;background-color:#FFFFFF;">
+	&nbsp;
+</p>
+<p style="margin-top:0px;margin-bottom:1em;padding:0px;font-size:13px;line-height:1.5em;color:#444444;font-family:Arial, Helvetica, sans-serif;white-space:normal;background-color:#FFFFFF;">
+	&nbsp;
+</p>' where `contents`.`ContentsId`='7'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='16'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='11'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='16'
+SQL:update contents set`contents`.`contentsName`='Sponsors',`contents`.`Summary`='Sponsors',`contents`.`contentsText`='<br />' where `contents`.`ContentsId`='7'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='16'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='17'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='16'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='17'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='11'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='17'
+SQL:insert into `contents`(contentsName,contentsText,parentId,Catalog,titleImage,swapimage,Summary,time) VALUES('Important Dates','<table border="0" cellspacing="1" cellpadding="1" width="30%" align="center" style="margin:0px 0px 0.5em;padding:0px;font-size:13px;width:673px;color:#444444;font-family:Arial, Helvetica, sans-serif;text-align:left;background-color:#FFFFFF;" class="ke-zeroborder">
+	<tbody style="margin:0px;padding:0px;border:0px;">
+		<tr style="margin:0px;padding:0px;">
+			<td class="rteleft" style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+				<strike style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;"><strong style="margin:0px;padding:0px;">Apr. 30</strong></span></span></span></span></strike>
+			</td>
+			<td class="rteleft" style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+				<strike style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;">Deadline for full paper submission<br style="margin:0px;padding:0px;" />
+</span></strike>
+			</td>
+		</tr>
+		<tr style="margin:0px;padding:0px;">
+			<td class="rteleft" style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+				<span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;"><strong style="margin:0px;padding:0px;">May 31</strong></span></span></span></span></span></span>
+			</td>
+			<td class="rteleft" style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+				<span style="margin:0px;padding:0px;">Notification to authors of paper acceptance</span>
+			</td>
+		</tr>
+		<tr style="margin:0px;padding:0px;">
+			<td class="rteleft" style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+				<span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;"><strong style="margin:0px;padding:0px;">Jun. 15</strong></span></span></span></span></span></span>
+			</td>
+			<td class="rteleft" style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+				<span style="margin:0px;padding:0px;">Final submission of revised papers</span>
+			</td>
+		</tr>
+		<tr style="margin:0px;padding:0px;">
+			<td class="rteleft" style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+				<span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;"><strong style="margin:0px;padding:0px;">Jun. 15</strong></span></span></span></span></span></span>
+			</td>
+			<td class="rteleft" style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+				<span style="margin:0px;padding:0px;">Conference registration payment deadline</span>
+			</td>
+		</tr>
+		<tr style="margin:0px;padding:0px;">
+			<td class="rteleft" style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+				<span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;"><strong style="margin:0px;padding:0px;">Sep. 18</strong></span></span></span></span></span></span>
+			</td>
+			<td class="rteleft" style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+				<span style="margin:0px;padding:0px;">Conference registration and reception</span>
+			</td>
+		</tr>
+		<tr style="margin:0px;padding:0px;">
+			<td class="rteleft" style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+				<span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;"><strong style="margin:0px;padding:0px;">Sep. 19-20</strong></span></span></span></span></span></span></span>
+			</td>
+			<td class="rteleft" style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+				<span style="margin:0px;padding:0px;">Technical sessions</span>
+			</td>
+		</tr>
+		<tr style="margin:0px;padding:0px;">
+			<td class="rteleft" style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+				<span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;"><span style="margin:0px;padding:0px;"><strong style="margin:0px;padding:0px;">Sep. 21</strong></span></span></span></span></span></span>
+			</td>
+			<td class="rteleft" style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+				<span style="margin:0px;padding:0px;">Conference tour</span>
+			</td>
+		</tr>
+	</tbody>
+</table>','17','0','0','0','Important Dates','0')
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='17'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='17'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='11'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='18'
+SQL:insert into `contents`(contentsName,contentsText,parentId,Catalog,titleImage,swapimage,Summary,time) VALUES('Download Center','<h2 class="title" style="margin:0px 0px 0.25em;padding:0px;font-size:26px;font-family:'Times New Roman', Times, serif;font-weight:normal;color:#E70101;line-height:normal;white-space:normal;background-color:#FFFFFF;">
+	<br />
+</h2>
+<div id="node-51" class="node sticky" style="margin:0px;padding:0px;outline:none 0px;font-size:13px;color:#444444;font-family:Arial, Helvetica, sans-serif;line-height:normal;white-space:normal;background-color:#FFFFFF;">
+	<div class="clearfix" style="margin:0px;padding:0px;outline:none 0px;">
+		<div class="content" style="margin:0px;padding:0.3em 0px 0px;outline:none 0px;">
+			<table class="sticky-header" style="margin:0px 0px 0.5em;padding:0px;font-size:13px;width:673px;position:fixed;top:0px;left:457px;visibility:hidden;">
+				<thead style="margin:0px;padding:0px;">
+					<tr style="margin:0px;padding:0px;">
+						<th style="margin:0px;padding:0.3em 1em 0.3em 0.5em;border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#D3E7F4;width:489.48333740234375px;">
+						</th>
+						<th style="margin:0px;padding:0.3em 1em 0.3em 0.5em;border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#D3E7F4;width:144.48333740234375px;">
+						</th>
+					</tr>
+				</thead>
+			</table>
+			<table id="attachments" class="sticky-enabled sticky-table" style="margin:0px 0px 0.5em;padding:0px;font-size:13px;width:673px;">
+				<thead class="tableHeader-processed" style="margin:0px;padding:0px;">
+					<tr style="margin:0px;padding:0px;">
+						<th style="margin:0px;padding:0.3em 1em 0.3em 0.5em;border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#D3E7F4;">
+							Attachment
+						</th>
+						<th style="margin:0px;padding:0.3em 1em 0.3em 0.5em;border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#D3E7F4;">
+							Size
+						</th>
+					</tr>
+				</thead>
+				<tbody style="margin:0px;padding:0px;border:0px;">
+					<tr class="odd" style="margin:0px;padding:0.1em 0.6em;background-color:#EDF5FA;border-width:1px 0px;border-style:solid;border-color:#D3E7F4;">
+						<td style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+							<a href="http://ksf.hs-furtwangen.de/ISAAT2011/sites/default/files/papers/authorinstructions_0.rtf" style="margin:0px;padding:0px;color:#003366;background-color:transparent;text-decoration:none;">Author Instructions</a>
+						</td>
+						<td style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+							75.73 KB
+						</td>
+					</tr>
+					<tr class="even" style="margin:0px;padding:0.1em 0.6em;border-width:1px 0px;border-style:solid;border-color:#D3E7F4;">
+						<td style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+							<a href="http://ksf.hs-furtwangen.de/ISAAT2011/sites/default/files/papers/copyright_transfer_general_0.pdf" style="margin:0px;padding:0px;color:#003366;background-color:transparent;text-decoration:none;">Copyright Transfer</a>
+						</td>
+						<td style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+							84.11 KB
+						</td>
+					</tr>
+					<tr class="odd" style="margin:0px;padding:0.1em 0.6em;background-color:#EDF5FA;border-width:1px 0px;border-style:solid;border-color:#D3E7F4;">
+						<td style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+							<a href="http://ksf.hs-furtwangen.de/ISAAT2011/sites/default/files/papers/call_for_paper_isaat2011_flyer_28.05.2011.pdf" style="margin:0px;padding:0px;color:#003366;background-color:transparent;text-decoration:none;">Call for Papers - Flyer - 28.05.2011</a>
+						</td>
+						<td style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+							171.67 KB
+						</td>
+					</tr>
+					<tr class="even" style="margin:0px;padding:0.1em 0.6em;border-width:1px 0px;border-style:solid;border-color:#D3E7F4;">
+						<td style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+							<a href="http://ksf.hs-furtwangen.de/ISAAT2011/sites/default/files/papers/how_to_modify.pdf" style="margin:0px;padding:0px;color:#003366;background-color:transparent;text-decoration:none;">Tutorial for uploading a modified paper</a>
+						</td>
+						<td style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+							605.65 KB
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>','18','0','0','0','downloads','0')
+SQL:insert into `contents`(contentsName,contentsText,parentId,Catalog,titleImage,swapimage,Summary,time) VALUES('Download Center','<h2 class="title" style="margin:0px 0px 0.25em;padding:0px;font-size:26px;font-family:'Times New Roman', Times, serif;font-weight:normal;color:#E70101;line-height:normal;white-space:normal;background-color:#FFFFFF;">
+	<br />
+</h2>
+<div id="node-51" class="node sticky" style="margin:0px;padding:0px;outline:none 0px;font-size:13px;color:#444444;font-family:Arial, Helvetica, sans-serif;line-height:normal;white-space:normal;background-color:#FFFFFF;">
+	<div class="clearfix" style="margin:0px;padding:0px;outline:none 0px;">
+		<div class="content" style="margin:0px;padding:0.3em 0px 0px;outline:none 0px;">
+			<table class="sticky-header" style="margin:0px 0px 0.5em;padding:0px;font-size:13px;width:673px;position:fixed;top:0px;left:457px;visibility:hidden;">
+				<thead style="margin:0px;padding:0px;">
+					<tr style="margin:0px;padding:0px;">
+						<th style="margin:0px;padding:0.3em 1em 0.3em 0.5em;border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#D3E7F4;width:489.48333740234375px;">
+						</th>
+						<th style="margin:0px;padding:0.3em 1em 0.3em 0.5em;border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#D3E7F4;width:144.48333740234375px;">
+						</th>
+					</tr>
+				</thead>
+			</table>
+			<table id="attachments" class="sticky-enabled sticky-table" style="margin:0px 0px 0.5em;padding:0px;font-size:13px;width:673px;">
+				<thead class="tableHeader-processed" style="margin:0px;padding:0px;">
+					<tr style="margin:0px;padding:0px;">
+						<th style="margin:0px;padding:0.3em 1em 0.3em 0.5em;border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#D3E7F4;">
+							Attachment
+						</th>
+						<th style="margin:0px;padding:0.3em 1em 0.3em 0.5em;border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#D3E7F4;">
+							Size
+						</th>
+					</tr>
+				</thead>
+				<tbody style="margin:0px;padding:0px;border:0px;">
+					<tr class="odd" style="margin:0px;padding:0.1em 0.6em;background-color:#EDF5FA;border-width:1px 0px;border-style:solid;border-color:#D3E7F4;">
+						<td style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+							<a href="http://ksf.hs-furtwangen.de/ISAAT2011/sites/default/files/papers/authorinstructions_0.rtf" style="margin:0px;padding:0px;color:#003366;background-color:transparent;text-decoration:none;">Author Instructions</a>
+						</td>
+						<td style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+							75.73 KB
+						</td>
+					</tr>
+					<tr class="even" style="margin:0px;padding:0.1em 0.6em;border-width:1px 0px;border-style:solid;border-color:#D3E7F4;">
+						<td style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+							<a href="http://ksf.hs-furtwangen.de/ISAAT2011/sites/default/files/papers/copyright_transfer_general_0.pdf" style="margin:0px;padding:0px;color:#003366;background-color:transparent;text-decoration:none;">Copyright Transfer</a>
+						</td>
+						<td style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+							84.11 KB
+						</td>
+					</tr>
+					<tr class="odd" style="margin:0px;padding:0.1em 0.6em;background-color:#EDF5FA;border-width:1px 0px;border-style:solid;border-color:#D3E7F4;">
+						<td style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+							<a href="http://ksf.hs-furtwangen.de/ISAAT2011/sites/default/files/papers/call_for_paper_isaat2011_flyer_28.05.2011.pdf" style="margin:0px;padding:0px;color:#003366;background-color:transparent;text-decoration:none;">Call for Papers - Flyer - 28.05.2011</a>
+						</td>
+						<td style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+							171.67 KB
+						</td>
+					</tr>
+					<tr class="even" style="margin:0px;padding:0.1em 0.6em;border-width:1px 0px;border-style:solid;border-color:#D3E7F4;">
+						<td style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+							<a href="http://ksf.hs-furtwangen.de/ISAAT2011/sites/default/files/papers/how_to_modify.pdf" style="margin:0px;padding:0px;color:#003366;background-color:transparent;text-decoration:none;">Tutorial for uploading a modified paper</a>
+						</td>
+						<td style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+							605.65 KB
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>','18','0','0','0','downloads','0')
+SQL:insert into `contents`(contentsName,contentsText,parentId,Catalog,titleImage,swapimage,Summary,time) VALUES('Download Center','<h2 class="title" style="margin:0px 0px 0.25em;padding:0px;font-size:26px;font-family:'Times New Roman', Times, serif;font-weight:normal;color:#E70101;line-height:normal;white-space:normal;background-color:#FFFFFF;">
+	<br />
+</h2>
+<div id="node-51" class="node sticky" style="margin:0px;padding:0px;outline:none 0px;font-size:13px;color:#444444;font-family:Arial, Helvetica, sans-serif;line-height:normal;white-space:normal;background-color:#FFFFFF;">
+	<div class="clearfix" style="margin:0px;padding:0px;outline:none 0px;">
+		<div class="content" style="margin:0px;padding:0.3em 0px 0px;outline:none 0px;">
+			<table class="sticky-header" style="margin:0px 0px 0.5em;padding:0px;font-size:13px;width:673px;position:fixed;top:0px;left:457px;visibility:hidden;">
+				<thead style="margin:0px;padding:0px;">
+					<tr style="margin:0px;padding:0px;">
+						<th style="margin:0px;padding:0.3em 1em 0.3em 0.5em;border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#D3E7F4;width:489.48333740234375px;">
+						</th>
+						<th style="margin:0px;padding:0.3em 1em 0.3em 0.5em;border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#D3E7F4;width:144.48333740234375px;">
+						</th>
+					</tr>
+				</thead>
+			</table>
+			<table id="attachments" class="sticky-enabled sticky-table" style="margin:0px 0px 0.5em;padding:0px;font-size:13px;width:673px;">
+				<thead class="tableHeader-processed" style="margin:0px;padding:0px;">
+					<tr style="margin:0px;padding:0px;">
+						<th style="margin:0px;padding:0.3em 1em 0.3em 0.5em;border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#D3E7F4;">
+							Attachment
+						</th>
+						<th style="margin:0px;padding:0.3em 1em 0.3em 0.5em;border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#D3E7F4;">
+							Size
+						</th>
+					</tr>
+				</thead>
+				<tbody style="margin:0px;padding:0px;border:0px;">
+					<tr class="odd" style="margin:0px;padding:0.1em 0.6em;background-color:#EDF5FA;border-width:1px 0px;border-style:solid;border-color:#D3E7F4;">
+						<td style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+							<a href="http://ksf.hs-furtwangen.de/ISAAT2011/sites/default/files/papers/authorinstructions_0.rtf" style="margin:0px;padding:0px;color:#003366;background-color:transparent;text-decoration:none;">Author Instructions</a>
+						</td>
+						<td style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+							75.73 KB
+						</td>
+					</tr>
+					<tr class="even" style="margin:0px;padding:0.1em 0.6em;border-width:1px 0px;border-style:solid;border-color:#D3E7F4;">
+						<td style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+							<a href="http://ksf.hs-furtwangen.de/ISAAT2011/sites/default/files/papers/copyright_transfer_general_0.pdf" style="margin:0px;padding:0px;color:#003366;background-color:transparent;text-decoration:none;">Copyright Transfer</a>
+						</td>
+						<td style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+							84.11 KB
+						</td>
+					</tr>
+					<tr class="odd" style="margin:0px;padding:0.1em 0.6em;background-color:#EDF5FA;border-width:1px 0px;border-style:solid;border-color:#D3E7F4;">
+						<td style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+							<a href="http://ksf.hs-furtwangen.de/ISAAT2011/sites/default/files/papers/call_for_paper_isaat2011_flyer_28.05.2011.pdf" style="margin:0px;padding:0px;color:#003366;background-color:transparent;text-decoration:none;">Call for Papers - Flyer - 28.05.2011</a>
+						</td>
+						<td style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+							171.67 KB
+						</td>
+					</tr>
+					<tr class="even" style="margin:0px;padding:0.1em 0.6em;border-width:1px 0px;border-style:solid;border-color:#D3E7F4;">
+						<td style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+							<a href="http://ksf.hs-furtwangen.de/ISAAT2011/sites/default/files/papers/how_to_modify.pdf" style="margin:0px;padding:0px;color:#003366;background-color:transparent;text-decoration:none;">Tutorial for uploading a modified paper</a>
+						</td>
+						<td style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+							605.65 KB
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>','18','0','0','0','downloads','0')
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='18'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='11'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='18'
+SQL:insert into `contents`(contentsName,contentsText,parentId,Catalog,titleImage,swapimage,Summary,time) VALUES('Download Center','<h2 class="title" style="margin:0px 0px 0.25em;padding:0px;font-size:26px;font-family:'Times New Roman', Times, serif;font-weight:normal;color:#E70101;line-height:normal;white-space:normal;background-color:#FFFFFF;">
+	<br />
+</h2>
+<div id="node-51" class="node sticky" style="margin:0px;padding:0px;outline:none 0px;font-size:13px;color:#444444;font-family:Arial, Helvetica, sans-serif;line-height:normal;white-space:normal;background-color:#FFFFFF;">
+	<div class="clearfix" style="margin:0px;padding:0px;outline:none 0px;">
+		<div class="content" style="margin:0px;padding:0.3em 0px 0px;outline:none 0px;">
+			<table class="sticky-header" style="margin:0px 0px 0.5em;padding:0px;font-size:13px;width:673px;position:fixed;top:0px;left:457px;visibility:hidden;">
+				<thead style="margin:0px;padding:0px;">
+					<tr style="margin:0px;padding:0px;">
+						<th style="margin:0px;padding:0.3em 1em 0.3em 0.5em;border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#D3E7F4;width:489.48333740234375px;">
+						</th>
+						<th style="margin:0px;padding:0.3em 1em 0.3em 0.5em;border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#D3E7F4;width:144.48333740234375px;">
+						</th>
+					</tr>
+				</thead>
+			</table>
+			<table id="attachments" class="sticky-enabled sticky-table" style="margin:0px 0px 0.5em;padding:0px;font-size:13px;width:673px;">
+				<thead class="tableHeader-processed" style="margin:0px;padding:0px;">
+					<tr style="margin:0px;padding:0px;">
+						<th style="margin:0px;padding:0.3em 1em 0.3em 0.5em;border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#D3E7F4;">
+							Attachment
+						</th>
+						<th style="margin:0px;padding:0.3em 1em 0.3em 0.5em;border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#D3E7F4;">
+							Size
+						</th>
+					</tr>
+				</thead>
+				<tbody style="margin:0px;padding:0px;border:0px;">
+					<tr class="odd" style="margin:0px;padding:0.1em 0.6em;background-color:#EDF5FA;border-width:1px 0px;border-style:solid;border-color:#D3E7F4;">
+						<td style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+							<a href="http://ksf.hs-furtwangen.de/ISAAT2011/sites/default/files/papers/authorinstructions_0.rtf" style="margin:0px;padding:0px;color:#003366;background-color:transparent;text-decoration:none;">Author Instructions</a>
+						</td>
+						<td style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+							75.73 KB
+						</td>
+					</tr>
+					<tr class="even" style="margin:0px;padding:0.1em 0.6em;border-width:1px 0px;border-style:solid;border-color:#D3E7F4;">
+						<td style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+							<a href="http://ksf.hs-furtwangen.de/ISAAT2011/sites/default/files/papers/copyright_transfer_general_0.pdf" style="margin:0px;padding:0px;color:#003366;background-color:transparent;text-decoration:none;">Copyright Transfer</a>
+						</td>
+						<td style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+							84.11 KB
+						</td>
+					</tr>
+					<tr class="odd" style="margin:0px;padding:0.1em 0.6em;background-color:#EDF5FA;border-width:1px 0px;border-style:solid;border-color:#D3E7F4;">
+						<td style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+							<a href="http://ksf.hs-furtwangen.de/ISAAT2011/sites/default/files/papers/call_for_paper_isaat2011_flyer_28.05.2011.pdf" style="margin:0px;padding:0px;color:#003366;background-color:transparent;text-decoration:none;">Call for Papers - Flyer - 28.05.2011</a>
+						</td>
+						<td style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+							171.67 KB
+						</td>
+					</tr>
+					<tr class="even" style="margin:0px;padding:0.1em 0.6em;border-width:1px 0px;border-style:solid;border-color:#D3E7F4;">
+						<td style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+							<a href="http://ksf.hs-furtwangen.de/ISAAT2011/sites/default/files/papers/how_to_modify.pdf" style="margin:0px;padding:0px;color:#003366;background-color:transparent;text-decoration:none;">Tutorial for uploading a modified paper</a>
+						</td>
+						<td style="margin:0px;padding:0.3em 0.5em;font-size:13px;">
+							605.65 KB
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<h2 class="title" style="margin:0px 0px 0.25em;padding:0px;font-size:26px;font-family:'Times New Roman', Times, serif;font-weight:normal;color:#E70101;line-height:normal;white-space:normal;background-color:#FFFFFF;">
+				<br />
+			</h2>
+		</div>
+	</div>
+</div>','18','0','0','0','Download Center','0')
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='18'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='18'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='11'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='18'
+SQL:insert into `contents`(contentsName,contentsText,parentId,Catalog,titleImage,swapimage,Summary,time) VALUES('Download Center','<h2 class="title" style="margin:0px 0px 0.25em;padding:0px;font-size:26px;font-family:'Times New Roman', Times, serif;font-weight:normal;color:#E70101;line-height:normal;white-space:normal;background-color:#FFFFFF;">
+	Download Center
+</h2>','18','0','0','0','Download Center','0')
+SQL:insert into `contents`(contentsName,contentsText,parentId,Catalog,titleImage,swapimage,Summary,time) VALUES('Download Center','Download Center','18','0','0','0','Download Center','0')
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='18'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='11'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='12'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='12'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='15'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='16'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='17'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='15'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='14'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='13'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='14'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='12'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='11'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='15'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='14'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='13'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='12'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='11'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='11'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='18'
+SQL:update contents set`contents`.`contentsName`='Download%20Center',`contents`.`Summary`='Download%20Center',`contents`.`contentsText`='%3Ch2%20class%3D%22title%22%20style%3D%22margin%3A0px%200px%200.25em%3Bpadding%3A0px%3Bfont-size%3A26px%3Bfont-family%3A%27Times%20New%20Roman%27%2C%20Times%2C%20serif%3Bfont-weight%3Anormal%3Bcolor%3A%23E70101%3Bline-height%3Anormal%3Bwhite-space%3Anormal%3Bbackground-color%3A%23FFFFFF%3B%22%3E%0A%09%3Cbr%20%2F%3E%0A%3C%2Fh2%3E%0A%3Cdiv%20id%3D%22node-51%22%20class%3D%22node%20sticky%22%20style%3D%22margin%3A0px%3Bpadding%3A0px%3Boutline%3Anone%200px%3Bfont-size%3A13px%3Bcolor%3A%23444444%3Bfont-family%3AArial%2C%20Helvetica%2C%20sans-serif%3Bline-height%3Anormal%3Bwhite-space%3Anormal%3Bbackground-color%3A%23FFFFFF%3B%22%3E%0A%09%3Cdiv%20class%3D%22clearfix%22%20style%3D%22margin%3A0px%3Bpadding%3A0px%3Boutline%3Anone%200px%3B%22%3E%0A%09%09%3Cdiv%20class%3D%22content%22%20style%3D%22margin%3A0px%3Bpadding%3A0.3em%200px%200px%3Boutline%3Anone%200px%3B%22%3E%0A%09%09%09%3Ctable%20class%3D%22sticky-header%22%20style%3D%22margin%3A0px%200px%200.5em%3Bpadding%3A0px%3Bfont-size%3A13px%3Bwidth%3A673px%3Bposition%3Afixed%3Btop%3A0px%3Bleft%3A457px%3Bvisibility%3Ahidden%3B%22%3E%0A%09%09%09%09%3Cthead%20style%3D%22margin%3A0px%3Bpadding%3A0px%3B%22%3E%0A%09%09%09%09%09%3Ctr%20style%3D%22margin%3A0px%3Bpadding%3A0px%3B%22%3E%0A%09%09%09%09%09%09%3Cth%20style%3D%22margin%3A0px%3Bpadding%3A0.3em%201em%200.3em%200.5em%3Bborder-bottom-width%3A2px%3Bborder-bottom-style%3Asolid%3Bborder-bottom-color%3A%23D3E7F4%3Bwidth%3A489.48333740234375px%3B%22%3E%0A%09%09%09%09%09%09%3C%2Fth%3E%0A%09%09%09%09%09%09%3Cth%20style%3D%22margin%3A0px%3Bpadding%3A0.3em%201em%200.3em%200.5em%3Bborder-bottom-width%3A2px%3Bborder-bottom-style%3Asolid%3Bborder-bottom-color%3A%23D3E7F4%3Bwidth%3A144.48333740234375px%3B%22%3E%0A%09%09%09%09%09%09%3C%2Fth%3E%0A%09%09%09%09%09%3C%2Ftr%3E%0A%09%09%09%09%3C%2Fthead%3E%0A%09%09%09%3C%2Ftable%3E%0A%09%09%09%3Ctable%20id%3D%22attachments%22%20class%3D%22sticky-enabled%20sticky-table%22%20style%3D%22margin%3A0px%200px%200.5em%3Bpadding%3A0px%3Bfont-size%3A13px%3Bwidth%3A673px%3B%22%3E%0A%09%09%09%09%3Cthead%20class%3D%22tableHeader-processed%22%20style%3D%22margin%3A0px%3Bpadding%3A0px%3B%22%3E%0A%09%09%09%09%09%3Ctr%20style%3D%22margin%3A0px%3Bpadding%3A0px%3B%22%3E%0A%09%09%09%09%09%09%3Cth%20style%3D%22margin%3A0px%3Bpadding%3A0.3em%201em%200.3em%200.5em%3Bborder-bottom-width%3A2px%3Bborder-bottom-style%3Asolid%3Bborder-bottom-color%3A%23D3E7F4%3B%22%3E%0A%09%09%09%09%09%09%09Attachment%0A%09%09%09%09%09%09%3C%2Fth%3E%0A%09%09%09%09%09%09%3Cth%20style%3D%22margin%3A0px%3Bpadding%3A0.3em%201em%200.3em%200.5em%3Bborder-bottom-width%3A2px%3Bborder-bottom-style%3Asolid%3Bborder-bottom-color%3A%23D3E7F4%3B%22%3E%0A%09%09%09%09%09%09%09Size%0A%09%09%09%09%09%09%3C%2Fth%3E%0A%09%09%09%09%09%3C%2Ftr%3E%0A%09%09%09%09%3C%2Fthead%3E%0A%09%09%09%09%3Ctbody%20style%3D%22margin%3A0px%3Bpadding%3A0px%3Bborder%3A0px%3B%22%3E%0A%09%09%09%09%09%3Ctr%20class%3D%22odd%22%20style%3D%22margin%3A0px%3Bpadding%3A0.1em%200.6em%3Bbackground-color%3A%23EDF5FA%3Bborder-width%3A1px%200px%3Bborder-style%3Asolid%3Bborder-color%3A%23D3E7F4%3B%22%3E%0A%09%09%09%09%09%09%3Ctd%20style%3D%22margin%3A0px%3Bpadding%3A0.3em%200.5em%3Bfont-size%3A13px%3B%22%3E%0A%09%09%09%09%09%09%09%3Ca%20href%3D%22http%3A%2F%2Fksf.hs-furtwangen.de%2FISAAT2011%2Fsites%2Fdefault%2Ffiles%2Fpapers%2Fauthorinstructions_0.rtf%22%20style%3D%22margin%3A0px%3Bpadding%3A0px%3Bcolor%3A%23003366%3Bbackground-color%3Atransparent%3Btext-decoration%3Anone%3B%22%3EAuthor%20Instructions%3C%2Fa%3E%0A%09%09%09%09%09%09%3C%2Ftd%3E%0A%09%09%09%09%09%09%3Ctd%20style%3D%22margin%3A0px%3Bpadding%3A0.3em%200.5em%3Bfont-size%3A13px%3B%22%3E%0A%09%09%09%09%09%09%0975.73%20KB%0A%09%09%09%09%09%09%3C%2Ftd%3E%0A%09%09%09%09%09%3C%2Ftr%3E%0A%09%09%09%09%09%3Ctr%20class%3D%22even%22%20style%3D%22margin%3A0px%3Bpadding%3A0.1em%200.6em%3Bborder-width%3A1px%200px%3Bborder-style%3Asolid%3Bborder-color%3A%23D3E7F4%3B%22%3E%0A%09%09%09%09%09%09%3Ctd%20style%3D%22margin%3A0px%3Bpadding%3A0.3em%200.5em%3Bfont-size%3A13px%3B%22%3E%0A%09%09%09%09%09%09%09%3Ca%20href%3D%22http%3A%2F%2Fksf.hs-furtwangen.de%2FISAAT2011%2Fsites%2Fdefault%2Ffiles%2Fpapers%2Fcopyright_transfer_general_0.pdf%22%20style%3D%22margin%3A0px%3Bpadding%3A0px%3Bcolor%3A%23003366%3Bbackground-color%3Atransparent%3Btext-decoration%3Anone%3B%22%3ECopyright%20Transfer%3C%2Fa%3E%0A%09%09%09%09%09%09%3C%2Ftd%3E%0A%09%09%09%09%09%09%3Ctd%20style%3D%22margin%3A0px%3Bpadding%3A0.3em%200.5em%3Bfont-size%3A13px%3B%22%3E%0A%09%09%09%09%09%09%0984.11%20KB%0A%09%09%09%09%09%09%3C%2Ftd%3E%0A%09%09%09%09%09%3C%2Ftr%3E%0A%09%09%09%09%09%3Ctr%20class%3D%22odd%22%20style%3D%22margin%3A0px%3Bpadding%3A0.1em%200.6em%3Bbackground-color%3A%23EDF5FA%3Bborder-width%3A1px%200px%3Bborder-style%3Asolid%3Bborder-color%3A%23D3E7F4%3B%22%3E%0A%09%09%09%09%09%09%3Ctd%20style%3D%22margin%3A0px%3Bpadding%3A0.3em%200.5em%3Bfont-size%3A13px%3B%22%3E%0A%09%09%09%09%09%09%09%3Ca%20href%3D%22http%3A%2F%2Fksf.hs-furtwangen.de%2FISAAT2011%2Fsites%2Fdefault%2Ffiles%2Fpapers%2Fcall_for_paper_isaat2011_flyer_28.05.2011.pdf%22%20style%3D%22margin%3A0px%3Bpadding%3A0px%3Bcolor%3A%23003366%3Bbackground-color%3Atransparent%3Btext-decoration%3Anone%3B%22%3ECall%20for%20Papers%20-%20Flyer%20-%2028.05.2011%3C%2Fa%3E%0A%09%09%09%09%09%09%3C%2Ftd%3E%0A%09%09%09%09%09%09%3Ctd%20style%3D%22margin%3A0px%3Bpadding%3A0.3em%200.5em%3Bfont-size%3A13px%3B%22%3E%0A%09%09%09%09%09%09%09171.67%20KB%0A%09%09%09%09%09%09%3C%2Ftd%3E%0A%09%09%09%09%09%3C%2Ftr%3E%0A%09%09%09%09%09%3Ctr%20class%3D%22even%22%20style%3D%22margin%3A0px%3Bpadding%3A0.1em%200.6em%3Bborder-width%3A1px%200px%3Bborder-style%3Asolid%3Bborder-color%3A%23D3E7F4%3B%22%3E%0A%09%09%09%09%09%09%3Ctd%20style%3D%22margin%3A0px%3Bpadding%3A0.3em%200.5em%3Bfont-size%3A13px%3B%22%3E%0A%09%09%09%09%09%09%09%3Ca%20href%3D%22http%3A%2F%2Fksf.hs-furtwangen.de%2FISAAT2011%2Fsites%2Fdefault%2Ffiles%2Fpapers%2Fhow_to_modify.pdf%22%20style%3D%22margin%3A0px%3Bpadding%3A0px%3Bcolor%3A%23003366%3Bbackground-color%3Atransparent%3Btext-decoration%3Anone%3B%22%3ETutorial%20for%20uploading%20a%20modified%20paper%3C%2Fa%3E%0A%09%09%09%09%09%09%3C%2Ftd%3E%0A%09%09%09%09%09%09%3Ctd%20style%3D%22margin%3A0px%3Bpadding%3A0.3em%200.5em%3Bfont-size%3A13px%3B%22%3E%0A%09%09%09%09%09%09%09605.65%20KB%0A%09%09%09%09%09%09%3C%2Ftd%3E%0A%09%09%09%09%09%3C%2Ftr%3E%0A%09%09%09%09%3C%2Ftbody%3E%0A%09%09%09%3C%2Ftable%3E%0A%09%09%3C%2Fdiv%3E%0A%09%3C%2Fdiv%3E%0A%3C%2Fdiv%3E' where `contents`.`ContentsId`='9'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='18'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='18'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='11'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='13'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='14'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='13'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='11'
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select *,`columns`.`ColumnsId`  from  `columns`  limit 0,30
+SQL:select * from `contents`   where `contents`.`parentId` ='13'

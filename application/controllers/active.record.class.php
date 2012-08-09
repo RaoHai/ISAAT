@@ -178,7 +178,8 @@
 			$sql = "update {$instance} set";
 			$query;
 			foreach($QueryColums as $Key=>$Value)
-			{
+                        {
+                                $Value = rawurlencode($Value);
 				if(empty($query))
 					$query.="`{$instance}`.`{$Key}`='{$Value}'";
 				else
