@@ -17,7 +17,7 @@
 		}
 		public function _getpermission()
 		{
-			if($_SESSION["permission"]=="admin")
+			if($_SESSION["PERMISSION"]=="admin")
 				echo json_encode(true);
 			else echo json_encode(false);
 		}

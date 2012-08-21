@@ -155,6 +155,11 @@ $(document).ready(function(){
 				});	
 
 	});
+        $('.navi').waypoint(function() {
+          $(this).toggleClass("topfixed");
+          //alert('You have scrolled to an entry.');
+        });
+        
 });
 
 

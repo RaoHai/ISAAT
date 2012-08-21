@@ -4,7 +4,7 @@ html,body {
 	width: auto;
 	height: 100%;
 	min-height: 600px;
-	
+        background: url(/images/bg.jpg) center 0 no-repeat transparent;	
 	margin:0px;
 }
 a
@@ -13,355 +13,496 @@ a
 	background: transparent;
 	text-decoration: none;
 }
-ul
+.menu ul
 {
 	
 	list-style-type: none;
 	line-height:40px;
 }
-li
+.menu a
 {
-	font-size:14px;
-	float:left;
-	width:120px;
-	text-align:center;
-	border-left:dotted #CCCCCC 1px;
-	line-height:40px;
+    color:white;
+    text-decoration: none;
 }
-li:hover
+.menu ul li
 {
-	color:white;
-	background-color:#999;
+        color:white;
+        height:20px;
 	font-size:14px;
 	float:left;
-	width:120px;
-	text-align:center;
-	border-left:dotted #CCCCCC 1px;
+        text-align:center;
+        line-height: 20px;
+        padding: 5px 10px;
+        background-image:url("images/navbar_bg.png");
+
+}
+.menu ul li:hover
+{
+   background-position:center -30px; 
 }
 .doc 
 {
-	width: 1150px;
-	display: block;
-	height: auto;
-	float: none;
-	background-color: #FFF;
-	margin-top: 0px;
-	margin-right: auto;
-	margin-bottom: auto;
-	margin-left: auto;
-	min-height: 700px;
-	border: 1px none #CCC;
-	/* [disabled]min-width: 790px; */
-	text-align: right;
-	font-family: Arial, Helvetica, sans-serif;
-	color: #666;
-	font-size: 14px;
+    width: 1000px;
+    display: block;
+    height: auto;
+    float: none;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    min-height: 700px;
+    border: 1px none #CCC;
+    /* [disabled]min-width: 790px; */
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+    font-size: 14px;
 }
 .main {
-	width: 1150px;
-	display: block;
-	height: auto;
-	float: left;
-	background-color: #FFF;
-	margin-top: 0px;
-	margin-right: auto;
-	margin-bottom: auto;
-	margin-left: auto;
-	min-height: 700px;
-	border: 1px none #CCC;
-	/* [disabled]min-width: 790px; */
-	text-align: right;
-	font-family: Arial, Helvetica, sans-serif;
-	color: #666;
-	font-size: 14px;
+    width: 967px;
+    display: block;
+    height: auto;
+    float: left;
+    background-color: #FFF;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    min-height: 700px;
+    border: 1px none #CCC;
+    /* [disabled]min-width: 790px; */
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+    font-size: 14px;
 }
 .head-nav {
-	background-image: url(images/banner.png);
-	background-repeat: no-repeat;
+    background-image: url(images/banner.png);
+    background-repeat: no-repeat;
 }
 .left-nav {
-	float: left;
-	width: 200px;
-	height: 100px;
-	margin-top: 20px;
+    float: left;
+    width: 200px;
+    height: 100px;
+    margin-top: 20px;
 }
 .right-nav {
-	float: right;
-	width: 190px;
+    float: right;
+    width: 190px;
 }
 .right-nav {
-	float: right;
-	width: 900px;
-	height: auto;
-	background-image: none;
-	background-repeat: no-repeat;
-	border-left-width: 1px;
-	border-left-style: dotted;
-	border-left-color: #CCC;
-	min-height: 400px;
-	margin-top: 20px;
+    float: right;
+    width: 900px;
+    height: auto;
+    background-image: none;
+    background-repeat: no-repeat;
+    border-left-width: 1px;
+    border-left-style: dotted;
+    border-left-color: #CCC;
+    min-height: 400px;
+    margin-top: 20px;
+}
+.logo
+{
+    background-image:url(images/logo.png);
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 180px;
+    height: 50px;
+    top: 15px;
+    left: 0;
+
 }
 .header {
-	background-image: url(images/logo.jpg);
-	background-repeat: no-repeat;
-	height: 80px;
-	border-bottom-width: 1px;
-	border-bottom-style: none;
-	border-bottom-color: #CCC;
-	width: 100%;
-	border-top-style: none;
-	border-right-style: none;
-	border-left-style: none;
+    background-image: url(images/logo.jpg);
+    background-repeat: no-repeat;
+    height: 80px;
+    border-bottom-width: 1px;
+    border-bottom-style: none;
+    border-bottom-color: #CCC;
+    width: 100%;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
 }
 .product {
-	background-image: url(images/banner.png);
-	background-repeat: no-repeat;
-	height: 50px;
-	width: 260px;
-	-webkit-transition: all;
-	-moz-transition: all;
-	-ms-transition: all;
-	-o-transition: all;
-	transition: all;
-	float: left;
-	margin-top: 30px;
+    background-image: url(images/banner.png);
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 260px;
+    -webkit-transition: all;
+    -moz-transition: all;
+    -ms-transition: all;
+    -o-transition: all;
+    transition: all;
+    float: left;
+    margin-top: 30px;
 }
 .about {
-	background-image: url(images/banner.png);
-	background-repeat: no-repeat;
-	height: 50px;
-	width: 170px;
-	background-position: -260px 0px;
-	float: left;
-	margin-top: 30px;
+    background-image: url(images/banner.png);
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 170px;
+    background-position: -260px 0px;
+    float: left;
+    margin-top: 30px;
 }
 .blog {
-	background-image: url(images/banner.png);
-	background-repeat: no-repeat;
-	height: 50px;
-	width: 130px;
-	background-position: -420px 0px;
-	float: left;
-	margin-top: 30px;
+    background-image: url(images/banner.png);
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 130px;
+    background-position: -420px 0px;
+    float: left;
+    margin-top: 30px;
 }
 .blog:hover {
-	background-image: url(images/banner.png);
-	background-repeat: no-repeat;
-	height: 50px;
-	width: 130px;
-	background-position: -420px -58px;
-	float: left;
-	margin-top: 30px;
+    background-image: url(images/banner.png);
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 130px;
+    background-position: -420px -58px;
+    float: left;
+    margin-top: 30px;
 }
 .about:hover {
-	background-image: url(images/banner.png);
-	background-repeat: no-repeat;
-	height: 50px;
-	width: 170px;
-	background-position: -260px -58px;
-	float: left;
-	margin-top: 30px;
+    background-image: url(images/banner.png);
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 170px;
+    background-position: -260px -58px;
+    float: left;
+    margin-top: 30px;
 }
 .product:hover {
-	background-image: url(images/banner.png);
-	background-repeat: no-repeat;
-	height: 50px;
-	width: 260px;
-	background-position: 0px -58px;
-	-webkit-transition: all;
-	-moz-transition: all;
-	-ms-transition: all;
-	-o-transition: all;
-	transition: all;
-	float: left;
-	margin-top: 30px;
+    background-image: url(images/banner.png);
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 260px;
+    background-position: 0px -58px;
+    -webkit-transition: all;
+    -moz-transition: all;
+    -ms-transition: all;
+    -o-transition: all;
+    transition: all;
+    float: left;
+    margin-top: 30px;
 }
 .blog_active {
-	background-image: url(images/banner.png);
-	background-repeat: no-repeat;
-	height: 50px;
-	width: 130px;
-	background-position: -420px -58px;
-	float: left;
-	margin-top: 30px;
+    background-image: url(images/banner.png);
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 130px;
+    background-position: -420px -58px;
+    float: left;
+    margin-top: 30px;
 }
 .about_active{
-	background-image: url(images/banner.png);
-	background-repeat: no-repeat;
-	height: 50px;
-	width: 170px;
-	background-position: -260px -58px;
-	float: left;
-	margin-top: 30px;
+    background-image: url(images/banner.png);
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 170px;
+    background-position: -260px -58px;
+    float: left;
+    margin-top: 30px;
 }
 .product_active {
-	background-image: url(images/banner.png);
-	background-repeat: no-repeat;
-	height: 50px;
-	width: 260px;
-	background-position: 0px -58px;
-	-webkit-transition: all;
-	-moz-transition: all;
-	-ms-transition: all;
-	-o-transition: all;
-	transition: all;
-	float: left;
-	margin-top: 30px;
+    background-image: url(images/banner.png);
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 260px;
+    background-position: 0px -58px;
+    -webkit-transition: all;
+    -moz-transition: all;
+    -ms-transition: all;
+    -o-transition: all;
+    transition: all;
+    float: left;
+    margin-top: 30px;
 }
 .copuright {
-	text-align: right;
-	width: 100%;
-	margin: auto;
+    text-align: right;
+    width: 100%;
+    margin: auto;
 }
 
 .content
 {
-	height: auto;
-	width: auto;
-	border-top-width: 1px;
-	border-top-style: dotted;
-	border-top-color: #CCC;
-	border-right-color: #CCC;
-	border-bottom-color: #CCC;
-	border-left-color: #CCC;
-	margin-top: 0px;
-	margin-right: 20px;
-	margin-bottom: 10px;
-	margin-left: 20px;
-	text-align: left;
-	border-right-width: 1px;
-	border-bottom-width: 1px;
-	border-left-width: 1px;
-	border-right-style: none;
-	border-bottom-style: none;
-	border-left-style: none;
-	clear: none;
-	float: left;
+    height: auto;
+    width: auto;
+    border-top-width: 1px;
+    border-top-style: dotted;
+    border-top-color: #CCC;
+    border-right-color: #CCC;
+    border-bottom-color: #CCC;
+    border-left-color: #CCC;
+    margin-top: 0px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    text-align: left;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    clear: none;
+    float: left;
 
 }
 .Brick
 {
-	background:white;
-	float:left;
-	display:block;
-	position:absolute;
-	border-color: #CCC;
-	box-sizing: border-box;
-	border: 1px solid #CCC;
-	-webkit-box-shadow: 0 1px 3px rgba(34, 25, 25, 0.15);
-	margin:10px;
+    background:white;
+    float:left;
+    display:block;
+    position:absolute;
+    border-color: #CCC;
+    box-sizing: border-box;
+    border: 1px solid #CCC;
+    -webkit-box-shadow: 0 1px 3px rgba(34, 25, 25, 0.15);
+    margin:10px;
 }
 .Brick .image
 {
-	width:200px;
-	height:120px;
-	margin:5px;
-	border-radius: 2px 2px 0 0;
-	overflow:hidden;
+    width:200px;
+    height:120px;
+    margin:5px;
+    border-radius: 2px 2px 0 0;
+    overflow:hidden;
 }
 .thumbnail
 {
-	float:left;
-	border-color: #CCC;
-	box-sizing: border-box;
-	border: 1px solid #CCC;
-	-webkit-box-shadow: 0 1px 3px rgba(34, 25, 25, 0.15);
-	margin: 10px;
-	width:150px;
-	height:120px;
-	margin:5px;
-	border-radius: 2px 2px 0 0;
-	overflow:hidden;
+    float:left;
+    border-color: #CCC;
+    box-sizing: border-box;
+    border: 1px solid #CCC;
+    -webkit-box-shadow: 0 1px 3px rgba(34, 25, 25, 0.15);
+    margin: 10px;
+    width:150px;
+    height:120px;
+    margin:5px;
+    border-radius: 2px 2px 0 0;
+    overflow:hidden;
 }
 .post
 {
-	float:left;
-	width:100%;
-	border-bottom:1px dotted #CCC;
+    float:left;
+    width:100%;
+    border-bottom:1px dotted #CCC;
 }
 .Brick #title
 {
-	text-align:center;
+    text-align:center;
 }
 .ie6
 {
-	background-image: url(images/noie6.gif);
-	background-repeat: no-repeat;
-	width:200px;
-	height:200px;
+    background-image: url(images/noie6.gif);
+    background-repeat: no-repeat;
+    width:200px;
+    height:200px;
 }
 
 .doc .main div span {
-	font-family: "Khmer UI";
-	text-align: right;
+    font-family: "Khmer UI";
+    text-align: right;
+}
+.header-nav{
+    text-align:right;
+    height:150px;
 }
 .footer {
-	width: 1150px;
-	margin: auto;
-	background-color: #FFF;
-	height: 30px;
-	border-top-width: 1px;
-	border-top-style: dotted;
-	border-top-color: #CCC;
-	border-right-color: #CCC;
-	border-bottom-color: #CCC;
-	border-left-color: #CCC;
+    float:left;
+    width:960px ;
+    margin: auto;
+    background-color: #FFF;
+    height: 30px;
+    border-top-width: 1px;
+    border-top-style: dotted;
+    border-top-color: #CCC;
+    border-right-color: #CCC;
+    border-bottom-color: #CCC;
+    border-left-color: #CCC;
 }
-.menu
+.navi
 {
-	text-align: left;
-	height: 50px;
+    text-align: left;
+    height: 30px;
+    width:967px;
+    float:left;
+    background-image: url("images/nav-left.png") ;
+    background-repeat:no-repeat;
+}
+.outer
+{
+    width:967px;
+    height:30px;
+    background: url('/images/nav-right.png') right 0 no-repeat transparent;
+}
+
+.menu{
+    height:30px;
+    width:956px;
+    float:left;
+    background-image: url("images/navbar_bg.png");
+    background-repeat:repeat-x;
+    margin-left:7px;
+    margin-right:7px;
 }
 .content .text
 {
-	margin: 20px;
-	color: #333;
-	font-family: "Khmer UI";
-	font-size:14px;
-	font-weight:normal;!important;
+    margin: 20px;
+    color: #333;
+    font-family: "Khmer UI";
+    font-size:14px;
+    font-weight:normal;!important;
 }
 .bg
 {
-	height:35px;
-	width:100%;
+    height:35px;
+    width:100%;
 }
 .console
 {
-	display: block;
-	position: fixed;
-	left:0;
-	top:0;
-	background-image: url(images/nav_bg.png);
-	background-repeat: repeat-x;
-	width:100%;
-	height:35px;
+    display: block;
+    position: fixed;
+    left:0;
+    top:0;
+    background-image: url(images/nav_bg.png);
+    background-repeat: repeat-x;
+    width:100%;
+    height:35px;
 }
 .console .title
 {
-	float:left;
-	width:100px;
-	height:auto;
-	font-size:20px;
-	line-height:35px;
-	color:white;
-	font-weight:bold;
+    float:left;
+    width:100px;
+    height:auto;
+    font-size:20px;
+    line-height:35px;
+    color:white;
+    font-weight:bold;
 }
 .console .selection
 {
-	float:left;
-	width:100px;
-	height:auto;
-	font-size:16px;
-	line-height:35px;
-	color:white;
-	cursor:pointer;
+    float:left;
+    width:100px;
+    height:auto;
+    font-size:16px;
+    line-height:35px;
+    color:white;
+    cursor:pointer;
 
 }
 .console .selection:hover
 {
-	color:#ccc;
+    color:#ccc;
 }
 .editor input
 {
-	width:400px;
+    width:400px;
+}
+#header-right{
+    float:right;
+    width:575px;
+}
+#header-left-tri
+{
+    width:32px;
+    height:25px;
+    float:left;
+    background-image:url(/images/left.png);
+}
+#header-right-tri{
+    width:32px;
+    height:25px;
+    float:left;
+    position:relative;
+    background: url('/images/right.png') right top no-repeat transparent;
+}
+#header-content
+{
+    height:25px;
+    float:left;
+    width:500px;
+    background-color:black;
+    font-size: 12px;
+    line-height: 25px;
+    list-style-image: none;
+    font-weight: bold;
+    color:white;
+}
+#header-content ul 
+{
+    margin: 0 10px 0 10px;
+    padding: 0;
+    text-decoration: none;
+    display: block;
+    position: relative;
+    list-style-type: none;
+}
+#header-content ul li
+{
+    padding: 0;
+    height: 25px;
+    font-size: 14px;
+    line-height: 25px;
+    float: left;
+    list-style-image: none;
+    font-weight: bold;
+    position: relative;
+    margin:0px 10px 0px 10px;
+}
+
+#header-content a
+{
+    color:white;
+}
+#search
+{
+    background-image: url("images/sprite.png");
+    width:145px;
+    height:21px;
+    margin-top:2px;
+    float:left;
+}
+#search-input{
+    margin: 0;
+    padding: 0;
+    height: 16px;
+    width: 116px;
+    border: none;
+    color: #444;
+    position: relative;
+    top: -3px;
+    left: -18px;
+    background-color: transparent;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 16px;
+
+}
+.index-senten
+{
+    text-align:left;
+    float:left;
+    color:white;
+    font-size:26px;
+    width:394px;
+    height:35px;
+    background-image: url("/images/text.png");
+}
+#photo
+{
+    margin-left:-20px;
+    width:967px;
+    height:300px;
+    background-image: url("/images/1.png");
+}
+.topfixed
+{
+    display:block;
+    position:fixed;
+    top:0px;
 }

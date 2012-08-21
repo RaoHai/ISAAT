@@ -11,8 +11,7 @@
 =============================================================================*/
 //header("content-Type: text/html; charset=utf-8");
 error_reporting(E_ALL);
-   
-ini_set( 'display_errors', 'Off' );
+   ini_set( 'display_errors', 'Off' );
     defined('BASE_PATH')  
 	|| define('BASE_PATH', realpath(dirname(__FILE__)).'/');    
 	defined('INDEX_PATH')  

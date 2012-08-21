@@ -1,8 +1,12 @@
+<?php
+require_once(APPLICATION_PATH."/view/ui.class.php");
+$ui = ui::getInstance() ;
+?>
 <!doctype html>
 <html>
 <head>
 <meta charset="utf-8">
-<title>ISAAT 2013</title>
+<title>MY PAPER-ISAAT 2013</title>
 <link href="/css/bootstrap.css" rel="stylesheet" type="text/css">
 <link href="/main.css" rel="stylesheet" type="text/css">
 </head>
@@ -20,10 +24,10 @@
               </li>
               <li>
               <a href="/"> Home </a></li><li> Sitemap</li>
-      {$if:USER}
-	   <li><a href="/paper">My paper</a></li>
-     {$else}<li><a href="/register/login">Login</a></li>
-      {$end}<li> Contact</li></ul> </div>
+      <?php if($this->values["USER"]) {  ?>
+	  <li><a href="/paper">My paper</a></li>
+     <?php } else { ?><li><a href="/register/login">Login</a></li>
+      <?php } ?><li> Contact</li></ul> </div>
   
   <div id="header-right-tri"></div>
   </div>
@@ -36,9 +40,9 @@
               <ul>
                   <li><a href="/">Home</a></li>
 
-                  {$foreach:cols,$col}
-                  <li><a href="/columns/{$$col->ColumnsId}">{$$col->columnsName}</a></li>
-                  {$end}
+                  <?php foreach($this->values["cols"] as $col) {  ?>
+                  <li><a href="/columns/<?php echo $col->ColumnsId; ?>"><?php echo $col->columnsName; ?></a></li>
+                  <?php } ?>
 
               </ul>
           </div>
@@ -51,20 +55,60 @@
     <h2>The 17th Chinese Conference of Abrasive Technology </h2>
 </div>
 <div id="photo"></div>
-          {$foreach:contents,$cot}
+          
               <div class="title">
                   <h2>
-                      {$$cot->contentsName}
+                      PAPER
                       <h2>
                       </div>
                       <div class="subtitle">
-                          <h3>{$$cot->Summary}</h3>
+                          <h3>My paper</h3>
                       </div>
                       <div class="text"> 
-					   {$$cot->contentsText}
+					  <?php if($this->values["haspaper"]) {  ?>
+            <div><b>Title:</b></div>
+            <div><?php echo $this->values["papertitle"]; ?></div>
+            <div><b>Summary</b></div>
+            <div><?php echo $this->values["Summary"]; ?></div>
+            <div><b>Submitted</b></div>
+            <div><?php echo $this->values["time"]; ?></div>
+            <div><b>PaperId</b></div>
+            <div><?php echo $this->values["paperid"]; ?></div>
+            <div><b style='color:gray;'>Decision Status:</b></div>
+            <div><?php echo $this->values["statu"]; ?></div>
+            <div><b style='color:red;'>Comment from the reviewer:</b></div>
+            <div><?php echo $this->values["comment"]; ?></div>
+            <div><b>Edit Paper</b></div>
+            <div>Submit the modified paper</div>
+            <form action="paper/new" method="post" enctype="multipart/form-data">
+                <input name="id" style="display:none;" value="<?php echo $this->values["paperid"]; ?>"/>
+                <input type="file" name="file" /><input type="submit" value="Submit" />
+                </form>
+                <div>Submitted Papers</div>
+                <table class="table table-bordered table-striped">
+                    <thead><tr><th>Filename</th><th>submit time</th><th>statu</th><th>action</th></tr></thead>
+            <?php foreach($this->values["paperfile"] as $files) {  ?>
+            <tr><td><a href="upload/<?php echo $files->PaperfileName; ?>"><?php echo $files->PaperfileName; ?></a></td><td><?php echo $files->submittime; ?></td><td><?php echo $files->statu; ?></td><td><a href="paper/del/<?php echo $files->PaperfileId; ?>">DEL</a></td></tr>
+            <?php } ?>
+            </table>
+            <?php } else { ?>
+
+            <b>You have no papers now,you can submit a new paper.</b>
+            <form action="/paper/submit" method="post" enctype="multipart/form-data">
+                <div>Title:</div>
+                <input name="paper_title" />
+                <div>Summary:</div>
+                <input name="paper_summary" />
+                <div>Key Word:</div>
+                <input name="paper_keyword" />
+                <div>Attach new file:</div>
+                <input type="file" name="paper_file" /></br>
+                <input type="submit" class="btn btn-primary">
+                </form>
+            <?php } ?>
 					  </div>
                           </div>
-						   {$end} 
+						  
                           </div>
                           <div class="footer">
                               <div style="font-family: 'Khmer UI'; float: none; text-align: right; margin-right: 20px;" >

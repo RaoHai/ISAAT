@@ -21,16 +21,13 @@
 	defined('DB_USER_PASSWORD')  	|| define('DB_USER_PASSWORD', "TTWzxxTrEPqaFaNu");
 	//数据库名
 	defined('DB_NAME')  || define('DB_NAME', "isaat");
-            
-       $_SESSION["USERID"]= 0; 
+
 	static $_Struct=
 	array(
-		"columns" => array("columnsName","columnsDesc","isshow"),
+		"columns" => array("columnsName","columnsDesc"),
 		"childColumns"=>array("childColumnsName","parentColumns","desc"),
-		"contents"=>array("contentsName","contentsText","parentId","Catalog","titleImage","swapimage","Summary","time"),
-                "user"=>array("UserName","PassWord","Salt","Permission","surname","givenname","phone","company","department","country","message","email"),
-                "paper"=>array("PaperName","authorId","summary","version","comments","posttime","changetime","filename","statu"),
-                "paperfile"=>array("PaperfileName","submittime","comment","statu","paperId")
+		"contents"=>array("contentsName","contentsText","parentId","Catalog","titleImage","swapimage","Summary","href","time"),
+		"user"=>array("UserName","PassWord","Salt","Permission","surname","givenname","phone","company","department","country","message","email")
 	);
 
 	 

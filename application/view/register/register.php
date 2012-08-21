@@ -1,8 +1,12 @@
+<?php
+require_once(APPLICATION_PATH."/view/ui.class.php");
+$ui = ui::getInstance() ;
+?>
 <!doctype html>
 <html>
 <head>
 <meta charset="utf-8">
-<title>ISAAT 2013</title>
+<title>REGISTER-ISAAT 2013</title>
 <link href="/css/bootstrap.css" rel="stylesheet" type="text/css">
 <link href="/main.css" rel="stylesheet" type="text/css">
 </head>
@@ -20,10 +24,9 @@
               </li>
               <li>
               <a href="/"> Home </a></li><li> Sitemap</li>
-      {$if:USER}
-	   <li><a href="/paper">My paper</a></li>
-     {$else}<li><a href="/register/login">Login</a></li>
-      {$end}<li> Contact</li></ul> </div>
+      <?php if($this->values["USER"]) {  ?>
+     <?php } else { ?><li><a href="/register/login">Login</a></li>
+      <?php } ?><li> Contact</li></ul> </div>
   
   <div id="header-right-tri"></div>
   </div>
@@ -36,9 +39,9 @@
               <ul>
                   <li><a href="/">Home</a></li>
 
-                  {$foreach:cols,$col}
-                  <li><a href="/columns/{$$col->ColumnsId}">{$$col->columnsName}</a></li>
-                  {$end}
+                  <?php foreach($this->values["cols"] as $col) {  ?>
+                  <li><a href="/columns/<?php echo $col->ColumnsId; ?>"><?php echo $col->columnsName; ?></a></li>
+                  <?php } ?>
 
               </ul>
           </div>
@@ -51,20 +54,76 @@
     <h2>The 17th Chinese Conference of Abrasive Technology </h2>
 </div>
 <div id="photo"></div>
-          {$foreach:contents,$cot}
+          
               <div class="title">
                   <h2>
-                      {$$cot->contentsName}
+                      REGISTER
                       <h2>
                       </div>
                       <div class="subtitle">
-                          <h3>{$$cot->Summary}</h3>
+                          <h3>Please complete your information:</h3>
                       </div>
                       <div class="text"> 
-					   {$$cot->contentsText}
+				<div>
+ <label for="edit-name">Username:</label>
+ <input type="text" maxlength="60" name="name" id="edit-name" size="60" value="" class="input-xlarge"/>
+ <div id="namecheck"></div>
+</div>
+
+<div>
+ <label for="edit-mail">E-mail address: </label>
+ <input type="text" maxlength="64" name="mail" id="edit-mail" size="60" value="" class="input-xlarge"/>
+</div>
+
+<div>
+ <label for="edit-pass-pass1">Password: </label>
+ <input type="password" name="pass[pass1]" id="edit-pass-pass1"  maxlength="128"  size="25" class="input-xlarge"/>
+</div>
+ 
+<div>
+ <label for="edit-pass-pass2">Confirm password: </label>
+ <input type="password" name="pass[pass2]" id="edit-pass-pass2"  maxlength="128"  size="25"  class="input-xlarge"/>
+</div>
+
+<div>
+ <label for="edit-profile-surname">Surname: </label>
+ <input type="text" maxlength="255" name="profile_surname" id="edit-profile-surname" size="60" value="" class="input-xlarge"/>
+</div>
+
+<div>
+ <label for="edit-profile-givenname">Given name:</label>
+ <input type="text" maxlength="255" name="profile_givenname" id="edit-profile-givenname" size="60" value="" class="input-xlarge"/>
+</div>
+
+<div>
+ <label for="edit-profile-phone">Phone: </label>
+ <input type="text" maxlength="255" name="profile_phone" id="edit-profile-phone" size="60" value="" class="input-xlarge"/>
+</div>
+
+<div>
+ <label for="edit-University-Company-">Company/University:</label>
+ <input type="text" maxlength="255" name="University_Company_" id="edit-University-Company" size="60" value="" class="input-xlarge"/>
+</div>
+
+<div>
+ <label for="edit-profile-department">Department: </label>
+ <input type="text" maxlength="255" name="profile_department" id="edit-profile-department" size="60" value="" class="input-xlarge"/>
+</div>
+
+<div>
+ <label for="edit-profile-country">Country: </label>
+ <input type="text" maxlength="255" name="profile_country" id="edit-profile-country" size="60" value="" class="input-xlarge"/>
+</div>
+
+<div class="form-item" id="edit-comments-message-orga-wrapper">
+ <label for="edit-comments-message-orga">Message for the Organisation Team: </label>
+ <textarea cols="60" rows="5" name="comments_message_orga" id="edit-comments-message-orga"  class="input-xlarge"/></textarea>
+</div>
+
+<button id="register">Create new account</button>
 					  </div>
                           </div>
-						   {$end} 
+						  
                           </div>
                           <div class="footer">
                               <div style="font-family: 'Khmer UI'; float: none; text-align: right; margin-right: 20px;" >
@@ -115,5 +174,46 @@
                               });
                           });
                       </script>
-                  </body>
-              </html>
+					 <script language="javascript" type="text/javascript">
+
+$(document).ready(function(){
+
+	$("input#edit-name").focus(function(){
+		$("input#edit-name").blur(function(){			
+			  $.ajax({
+			  type: 'POST',
+			  url: '/register/checkname',
+			  data:"namechecks="+$("#edit-name").val(),
+			  success: function(msg){ 
+					$("#namecheck").empty();
+					$("#namecheck").append("<b style='color:red;'>"+msg+"</b>");					
+						}
+			  });
+			  });
+			  });	
+		
+});
+
+</script>
+
+<script language="javascript" type="text/javascript">
+
+$(document).ready(function(){	
+	$('#register').click(function(){
+		$.ajax({
+			  type: 'POST',
+			  url: '/register/register',
+			  data:"namechecks="+$("#edit-name").val()+"&mail="+$("#edit-mail").val()+"&password="+$("#edit-pass-pass1").val()+"&surname="+$("#edit-profile-surname").val()+
+					"&givename="+$("#edit-profile-givenname").val()+"&phone="+$("#edit-profile-phone").val()+"&company="+$("#edit-University-Company").val()+
+					"&department="+$("#edit-profile-department").val()+"&country="+$("#edit-profile-country").val()+"&comments-message-orga="+$("#edit-comments-message-orga").val(),
+			  success: function(msg){ 
+					window.location.href="/";
+						}
+			  });
+	});
+		
+});
+
+</script>
+ </body>
+  </html>

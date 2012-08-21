@@ -106,7 +106,9 @@ class Route
 			$acl->allow("guest","index");
 			$acl->allow("guest","columns");
 			$acl->allow("guest","contents");
-			
+		        $acl->allow("guest","paper");	
+                        $acl->allow("guest","paperfile");
+                        $acl->allow("guest","register");
 			//$acl->allow("guest","user");
 			
 			//echo $permission;

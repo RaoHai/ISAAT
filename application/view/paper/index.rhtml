@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>ISAAT 2013</title>
+<title>MY PAPER-ISAAT 2013</title>
 <link href="/css/bootstrap.css" rel="stylesheet" type="text/css">
 <link href="/main.css" rel="stylesheet" type="text/css">
 </head>
@@ -21,7 +21,7 @@
               <li>
               <a href="/"> Home </a></li><li> Sitemap</li>
       {$if:USER}
-	   <li><a href="/paper">My paper</a></li>
+	  <li><a href="/paper">My paper</a></li>
      {$else}<li><a href="/register/login">Login</a></li>
       {$end}<li> Contact</li></ul> </div>
   
@@ -51,20 +51,60 @@
     <h2>The 17th Chinese Conference of Abrasive Technology </h2>
 </div>
 <div id="photo"></div>
-          {$foreach:contents,$cot}
+          
               <div class="title">
                   <h2>
-                      {$$cot->contentsName}
+                      PAPER
                       <h2>
                       </div>
                       <div class="subtitle">
-                          <h3>{$$cot->Summary}</h3>
+                          <h3>My paper</h3>
                       </div>
                       <div class="text"> 
-					   {$$cot->contentsText}
+					  {$if:haspaper}
+            <div><b>Title:</b></div>
+            <div>{$papertitle}</div>
+            <div><b>Summary</b></div>
+            <div>{$Summary}</div>
+            <div><b>Submitted</b></div>
+            <div>{$time}</div>
+            <div><b>PaperId</b></div>
+            <div>{$paperid}</div>
+            <div><b style='color:gray;'>Decision Status:</b></div>
+            <div>{$statu}</div>
+            <div><b style='color:red;'>Comment from the reviewer:</b></div>
+            <div>{$comment}</div>
+            <div><b>Edit Paper</b></div>
+            <div>Submit the modified paper</div>
+            <form action="paper/new" method="post" enctype="multipart/form-data">
+                <input name="id" style="display:none;" value="{$paperid}"/>
+                <input type="file" name="file" /><input type="submit" value="Submit" />
+                </form>
+                <div>Submitted Papers</div>
+                <table class="table table-bordered table-striped">
+                    <thead><tr><th>Filename</th><th>submit time</th><th>statu</th><th>action</th></tr></thead>
+            {$foreach:paperfile,$files}
+            <tr><td><a href="upload/{$$files->PaperfileName}">{$$files->PaperfileName}</a></td><td>{$$files->submittime}</td><td>{$$files->statu}</td><td><a href="paper/del/{$$files->PaperfileId}">DEL</a></td></tr>
+            {$end}
+            </table>
+            {$else}
+
+            <b>You have no papers now,you can submit a new paper.</b>
+            <form action="/paper/submit" method="post" enctype="multipart/form-data">
+                <div>Title:</div>
+                <input name="paper_title" />
+                <div>Summary:</div>
+                <input name="paper_summary" />
+                <div>Key Word:</div>
+                <input name="paper_keyword" />
+                <div>Attach new file:</div>
+                <input type="file" name="paper_file" /></br>
+                <input type="submit" class="btn btn-primary">
+                </form>
+            {$end}
 					  </div>
                           </div>
-						   {$end} 
+						  
                           </div>
                           <div class="footer">
                               <div style="font-family: 'Khmer UI'; float: none; text-align: right; margin-right: 20px;" >

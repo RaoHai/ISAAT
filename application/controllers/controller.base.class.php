@@ -16,7 +16,7 @@
 	 */
 	class ControllerBase implements Iterator
 	{
-		protected $items;
+		public $items;
 		private $json;
 		private $model;
 		protected $view;
@@ -76,6 +76,7 @@
 		*/
 		protected function RenderTemplate($action)
 		{
+		    $this->values["USER"]=$_SESSION["USERNAME"];	
 			
 			$this->TemplateFile = $this->TemplateFolder."".$action.".rhtml";
 			$compiledFile =  $this->TemplateFolder."".$action.".php";
